@@ -1,0 +1,74 @@
+[
+  {
+    "id": "bacio-di-klimt",
+    "titolo": "Il bacio",
+    "artista": "Gustav Klimt",
+    "anno": "1907–1908",
+    "tecnica": "Olio su tela e foglia d’oro",
+    "immagine": "images/bacio.jpeg"
+  },
+  {
+    "id": "giallo-rosso-blu-kandinsky",
+    "titolo": "Giallo-Rosso-Blu",
+    "artista": "Wassily Kandinsky",
+    "anno": "1925",
+    "tecnica": "Olio su tela",
+    "immagine": "images/forme.jpeg"
+  },
+  {
+    "id": "monna-lisa-leonardo",
+    "titolo": "Monna Lisa (La Gioconda)",
+    "artista": "Leonardo da Vinci",
+    "anno": "1503–1506 ",
+    "tecnica": "Olio su tavola di pioppo",
+    "immagine": "images/monnalisa.jpeg"
+  },
+  {
+    "id": "notte-stellata-van-gogh",
+    "titolo": "Notte stellata",
+    "artista": "Vincent van Gogh",
+    "anno": "1889",
+    "tecnica": "Olio su tela",
+    "immagine": "images/notte.jpeg"
+  },
+  {
+    "id": "grande-onda-hokusai",
+    "titolo": "La grande onda di Kanagawa",
+    "artista": "Katsushika Hokusai",
+    "anno": "c. 1831",
+    "tecnica": "Xilografia policroma (ukiyo-e)",
+    "immagine": "images/onda.jpeg"
+  },
+  {
+    "id": "persistenza-della-memoria-dali",
+    "titolo": "La persistenza della memoria",
+    "artista": "Salvador Dalí",
+    "anno": "1931",
+    "tecnica": "Olio su tela",
+    "immagine": "images/orologi.jpeg"
+  },
+  {
+    "id": "ragazza-orecchino-di-perla",
+    "titolo": "Ragazza con l'orecchino di perla",
+    "artista": "Jan Vermeer",
+    "anno": "1665-1666",
+    "tecnica": "Olio su tela",
+    "immagine": "images/ragazza.jpg"
+  },
+  {
+    "id": "lurlo-munch",
+    "titolo": "L’urlo",
+    "artista": "Edvard Munch",
+    "anno": "1893",
+    "tecnica": "Tempera e pastello su cartone",
+    "immagine": "images/urlo.jpeg"
+  },
+  {
+    "id": "nascita-di-venere-botticelli",
+    "titolo": "Nascita di Venere",
+    "artista": "Sandro Botticelli",
+    "anno": "1484–1486",
+    "tecnica": "Tempera su tela",
+    "immagine": "images/venere.jpeg"
+  }
+]

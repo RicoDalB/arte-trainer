@@ -1,0 +1,74 @@
+<!-- advanced.html -->
+<!doctype html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Arte Trainer – Avanzato</title>
+    
+    
+    <link rel="stylesheet" href="styles.css">
+    
+
+</head>
+
+<body data-page="advanced">
+    <header class="site-header">
+        <h1>Riconoscimento avanzato</h1>
+        <p class="subtitle">Scegli i criteri del quiz</p>
+    </header>
+
+    <main class="container narrow">
+        <form id="form-adv" class="panel form">
+            <div class="field">
+                <label for="threshold">Soglia percentuale massima (includi opere sotto questa %)</label>
+                <input id="threshold" type="number" min="0" max="100" step="1" value="50">
+                <small class="hint">Es. 50 = includi opere con accuratezza &lt; 50% o mai allenate</small>
+            </div>
+
+            <div class="field">
+                <label for="limit">Numero massimo di immagini nel quiz</label>
+                <input id="limit" type="number" min="1" step="1" value="20">
+            </div>
+
+            <div class="field check">
+                <label><input id="include-unseen" type="checkbox" checked> Includi opere mai allenate</label>
+            </div>
+
+            <div class="field">
+                <label for="q">Filtro testo (opzionale)</label>
+                <input id="q" type="search" placeholder="es. Rinascimento, Caravaggio, olio su tela...">
+            </div>
+
+            <div class="btn-row">
+                <a class="btn" href="index.html">Indietro</a>
+                <button class="btn primary" type="submit">Avvia quiz</button>
+            </div>
+        </form>
+    </main>
+
+    <script src="app.js"></script>
+    <script>
+        (function () {
+            const form = document.getElementById('form-adv');
+            form.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const thr = +document.getElementById('threshold').value || 0;
+                const lim = +document.getElementById('limit').value || 1;
+                const unseen = document.getElementById('include-unseen').checked ? 1 : 0;
+                const q = document.getElementById('q').value.trim();
+
+                const url = new URL('quiz.html', location.href);
+                url.searchParams.set('mode', 'advanced');
+                url.searchParams.set('threshold', String(thr));
+                url.searchParams.set('limit', String(lim));
+                url.searchParams.set('unseen', String(unseen));
+                if (q) url.searchParams.set('q', q);
+                location.href = url.toString();
+            });
+        })();
+    </script>
+</body>
+
+</html>

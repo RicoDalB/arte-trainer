@@ -1,0 +1,111 @@
+<!-- gallery.html -->
+<!doctype html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Arte Trainer – Raccolta</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+
+</head>
+
+<body data-page="gallery">
+    <header class="site-header">
+        <h1>Raccolta</h1>
+        <p class="subtitle">Tutte le opere con percentuali</p>
+    </header>
+
+    <main class="container">
+        <div class="toolbar">
+            <a class="btn" href="index.html">Home</a>
+            <input id="search" class="input" type="search" placeholder="Cerca artista / titolo / tecnica">
+            <select id="sort" class="input">
+                <option value="random">Ordine casuale</option>
+                <option value="artist">Artista (A→Z)</option>
+                <option value="year">Anno</option>
+                <option value="perf">Percentuale (↓)</option>
+            </select>
+            <button id="btn-only-weak" class="btn">Solo < 50%</button>
+        </div>
+
+        <section id="grid" class="grid"></section>
+    </main>
+
+    <script src="app.js"></script>
+    <script>
+        (async function () {
+            const A = window.ArteTrainer;
+            const grid = document.getElementById('grid');
+            const qInput = document.getElementById('search');
+            const sortSel = document.getElementById('sort');
+            const btnWeak = document.getElementById('btn-only-weak');
+
+            // seed search from URL ?q=
+            const p = new URLSearchParams(location.search);
+            if (p.get('q')) qInput.value = p.get('q');
+
+            let onlyWeak = false;
+
+            function render(opere) {
+                grid.innerHTML = '';
+                for (const o of opere) {
+                    const perf = A.getPerf(o.id).pct;
+                    const card = document.createElement('article');
+                    card.className = 'card ' + (perf === null ? '' : A.classPerf(perf));
+
+                    const wrap = document.createElement('div');
+                    wrap.className = 'thumb-wrap';
+                    const img = document.createElement('img');
+                    img.className = 'thumb';
+                    img.loading = 'lazy';
+                    img.src = o.immagine;
+                    img.alt = `${o.titolo} – ${o.artista}`;
+                    const badge = document.createElement('span');
+                    badge.className = 'badge-pct';
+                    badge.textContent = (perf === null) ? '—' : `${perf}%`;
+                    wrap.appendChild(img); wrap.appendChild(badge);
+
+                    const info = document.createElement('div');
+                    info.className = 'info';
+                    info.innerHTML = `
+            <h3 class="title">${o.titolo || 'Senza titolo'}</h3>
+            <p><strong>Artista:</strong> ${o.artista || 'Sconosciuto'}</p>
+            <p><strong>Anno:</strong> ${o.anno || '—'}</p>
+            <p><strong>Tecnica:</strong> ${o.tecnica || '—'}</p>
+          `;
+
+                    card.appendChild(wrap);
+                    card.appendChild(info);
+                    grid.appendChild(card);
+                }
+            }
+
+            function apply(opere) {
+                const q = qInput.value.trim().toLowerCase();
+                let out = opere.filter(o => (o.titolo + ' ' + o.artista + ' ' + o.tecnica + ' ' + o.anno).toLowerCase().includes(q));
+                if (onlyWeak) out = out.filter(o => {
+                    const { pct } = A.getPerf(o.id); return pct === null || pct < 50;
+                });
+                const sort = sortSel.value;
+                if (sort === 'artist') out.sort((a, b) => (a.artista || '').localeCompare(b.artista || ''));
+                else if (sort === 'year') out.sort((a, b) => (a._annoNum || 0) - (b._annoNum || 0));
+                else if (sort === 'perf') out.sort((a, b) => (A.getPerf(b.id).pct ?? -1) - (A.getPerf(a.id).pct ?? -1));
+                else out = A.shuffle(out);
+                render(out);
+            }
+
+            const opere = (await A.caricaOpere());
+            // normalized already adds _annoNum
+            apply(opere);
+
+            qInput.addEventListener('input', () => apply(opere));
+            sortSel.addEventListener('change', () => apply(opere));
+            btnWeak.addEventListener('click', () => { onlyWeak = !onlyWeak; btnWeak.classList.toggle('active', onlyWeak); apply(opere); });
+        })();
+    </script>
+</body>
+
+</html>

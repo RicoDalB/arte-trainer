@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Arte Trainer – Home</title>
+
+    
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body data-page="home">
+    <header class="site-header">
+        <h1>Arte Trainer</h1>
+        <p class="subtitle">Allenamento riconoscimento opere</p>
+    </header>
+
+    <main class="container">
+
+        <!-- Riga 1: a sinistra Avvio Quiz, a destra Raccolta -->
+        <section class="grid-2">
+            <div class="panel">
+                <h2>Quiz</h2>
+                <p class="note">Avvia subito un quiz casuale o configura un quiz mirato.</p>
+                <div class="btn-row">
+                    <a class="btn primary" href="quiz.html?mode=all">Avvia riconoscimento (tutte, casuale)</a>
+                    <a class="btn" href="advanced.html">Riconoscimento avanzato</a>
+                </div>
+            </div>
+
+            <div class="panel">
+                <h2>Raccolta</h2>
+                <p class="note">Guarda tutte le immagini con le percentuali di accuratezza.</p>
+                <div class="btn-row">
+                    <a class="btn" href="gallery.html">Apri Raccolta</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Riga 2: Ricerca -->
+        <section class="panel">
+            <h2>Ricerca</h2>
+            <div class="field-row">
+                <input id="quick-q" class="input" type="search" placeholder="Cerca artista / titolo / tecnica…">
+                <a id="quick-gallery" class="btn" href="gallery.html">Filtra in Raccolta</a>
+            </div>
+            <p class="note">Scrivi un termine e apri la Raccolta per vedere solo i risultati corrispondenti.</p>
+        </section>
+
+        
+
+        <!-- Riga 4: Memoria -->
+        <section class="panel">
+            <h2>Memoria</h2>
+            <div class="btn-row">
+                <button id="btn-reset" class="btn danger" type="button">Azzera memoria</button>
+                <button id="btn-export" class="btn" type="button">Esporta memoria</button>
+                <label class="btn file">
+                    Importa memoria
+                    <input id="file-import" type="file" accept="application/json" hidden>
+                </label>
+            </div>
+            <p class="note">La memoria è locale al dispositivo (localStorage). Usa Esporta/Importa per backup o
+                trasferimento.</p>
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+    <script>
+        (function () {
+            // ===== Memoria =====
+            const { resetMemoria, exportMemoria, importMemoria } = window.ArteTrainer;
+
+            document.getElementById('btn-reset').addEventListener('click', () => {
+                if (confirm('Sicuro di voler azzerare la memoria?')) resetMemoria();
+            });
+            document.getElementById('btn-export').addEventListener('click', exportMemoria);
+            document.getElementById('file-import').addEventListener('change', async (e) => {
+                if (e.target.files?.[0]) await importMemoria(e.target.files[0]);
+            });
+
+            // ===== Ricerca → Raccolta =====
+            const q = document.getElementById('quick-q');
+            const link = document.getElementById('quick-gallery');
+            function updateLink() {
+                const url = new URL('gallery.html', location.href);
+                const val = q.value.trim();
+                if (val) url.searchParams.set('q', val);
+                link.href = url.toString();
+            }
+            q.addEventListener('input', updateLink);
+            updateLink();
+
+            // ===== Tema (toggle) =====
+            const THEME_KEY = 'arteTheme.v1';
+            const select = document.getElementById('theme-select');
+            const btnApply = document.getElementById('theme-apply');
+
+            // Inizializza select col tema attuale
+            const current = document.documentElement.getAttribute('data-theme') ||
+                localStorage.getItem(THEME_KEY) || 'graphite';
+            select.value = current;
+
+            function setTheme(val) {
+                document.documentElement.setAttribute('data-theme', val);
+                localStorage.setItem(THEME_KEY, val);
+            }
+
+            btnApply.addEventListener('click', () => setTheme(select.value));
+
+            // Pulsanti rapidi
+            document.querySelectorAll('[data-theme-sample]').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const val = btn.getAttribute('data-theme-sample');
+                    select.value = val;
+                    setTheme(val);
+                });
+            });
+        })();
+    </script>
+</body>
+
+</html>

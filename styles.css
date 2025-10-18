@@ -1,0 +1,468 @@
+/* styles.css – Tema: Graphite (dark grigio + accenti gialli) */
+* {
+    box-sizing: border-box;
+}
+
+/* =========================
+   PALETTE & TOKENS
+   ========================= */
+:root {
+    /* Base */
+    --bg: #0f1115;
+    /* sfondo generale */
+    --bg-elev: #151922;
+    /* pannelli */
+    --bg-hover: #1c2230;
+    /* hover */
+    --text: #e8eaed;
+    /* testo principale */
+    --muted: #9aa4b2;
+    /* testo attenuato */
+    --muted-strong: #c7d1de;
+    /* titoli/salienti */
+    --border: #2a3342;
+    /* bordi */
+    --shadow: 0 8px 24px rgba(0, 0, 0, .28);
+
+    /* Accenti */
+    --primary: #ffd24d;
+    /* giallo per bottoni primari */
+    --primary-ink: #1e1600;
+    --primary-strong: #ffce3b;
+
+    --success: #6dd3a0;
+    --success-ink: #062319;
+    --warn: #f3b85b;
+    --warn-ink: #221b06;
+    --danger: #f28ca3;
+    --danger-ink: #3a0a12;
+
+    /* RACCOLTA – colori bordi performance (facili da cambiare) */
+    --perf-alta: #12a008;
+    /* verde */
+    --perf-media: #df7f19;
+    /* giallo/arancio */
+    --perf-bassa: #e72424;
+    /* rosso */
+
+    /* Raggio, spaziatura, cornice quiz */
+    --radius: .9rem;
+    --radius-sm: .55rem;
+    --space: 1rem;
+    --quiz-w: 700px;
+    /* larghezza riquadro immagine nel quiz */
+    --quiz-h: 400px;
+    /* altezza riquadro immagine nel quiz  */
+}
+
+/* =========================
+   BASE
+   ========================= */
+html,
+body {
+    margin: 0;
+    background:
+        radial-gradient(1200px 700px at 20% -10%, rgba(255, 255, 255, .06) 0%, transparent 60%),
+        radial-gradient(1100px 600px at 110% 20%, rgba(255, 255, 255, .04) 0%, transparent 55%),
+        var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif;
+    line-height: 1.4;
+}
+
+::selection {
+    background: rgba(255, 210, 77, .28);
+    color: var(--text);
+}
+
+a {
+    color: var(--primary);
+    text-underline-offset: .18em;
+}
+
+a:hover {
+    color: var(--primary-strong);
+}
+
+:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+    border-radius: .2rem;
+}
+
+/* scrollbars (webkit) */
+*::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #0b1220;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #2a3342;
+    border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: #354259;
+}
+
+/* =========================
+   HEADER
+   ========================= */
+.site-header {
+    padding: 1.1rem 1rem;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    background: rgba(15, 17, 21, .75);
+    backdrop-filter: blur(6px);
+    z-index: 10;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--muted-strong);
+    letter-spacing: .2px;
+}
+
+.subtitle {
+    margin: .25rem 0 0;
+    color: var(--muted);
+}
+
+/* =========================
+   LAYOUT
+   ========================= */
+.container {
+    padding: var(--space);
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.container.narrow {
+    max-width: 780px;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space);
+}
+
+@media (max-width: 860px) {
+    .grid-2 {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* =========================
+   PANEL / CARD
+   ========================= */
+.panel {
+    background: linear-gradient(180deg, rgba(21, 25, 34, .92), rgba(21, 25, 34, .98));
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: var(--space);
+    margin-bottom: var(--space);
+    box-shadow: var(--shadow);
+}
+
+.panel h2 {
+    margin: 0 0 .6rem 0;
+    font-size: 1.15rem;
+    color: var(--muted-strong);
+    letter-spacing: .2px;
+}
+
+.panel .note {
+    margin-top: .35rem;
+}
+
+/* Griglia carte (Raccolta) */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: var(--space);
+}
+
+.card {
+    border: 10px solid var(--border);
+    /* contorno ben visibile */
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: #121721;
+    transition: box-shadow .15s ease, transform .06s ease, border-color .15s ease;
+    box-shadow: var(--shadow);
+}
+
+.card:hover {
+    transform: translateY(-1px);
+    border-color: #ffce3b;
+}
+
+.thumb-wrap {
+    position: relative;
+}
+
+.grid .thumb {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    display: block;
+    background: #0d131d;
+    border-bottom: 1px solid var(--border);
+}
+
+.info {
+    padding: .75rem;
+}
+
+.title {
+    margin: 0 0 .25rem 0;
+    font-size: 1.05rem;
+    color: var(--muted-strong);
+}
+
+.badge-pct {
+    position: absolute;
+    right: .5rem;
+    top: .5rem;
+    padding: .25rem .45rem;
+    border: 1px solid var(--border);
+    background: rgba(18, 23, 33, .85);
+    color: var(--muted-strong);
+    border-radius: .5rem;
+    font-size: .85rem;
+    backdrop-filter: blur(2px);
+}
+
+/* Bordi performance – usano le 3 variabili sopra */
+.perf-alta {
+    border-color: var(--perf-alta);
+}
+
+.perf-media {
+    border-color: var(--perf-media);
+}
+
+.perf-bassa {
+    border-color: var(--perf-bassa);
+}
+
+/* =========================
+   BUTTONS & INPUTS
+   ========================= */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .6rem .9rem;
+    border: 1px solid var(--border);
+    border-radius: .55rem;
+    background: var(--bg-elev);
+    color: var(--text);
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform .05s ease, background-color .15s ease, opacity .2s ease, box-shadow .15s ease, color .15s ease;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, .15);
+}
+
+.btn:hover {
+    background: var(--bg-hover);
+}
+
+.btn:active {
+    transform: translateY(1px);
+    box-shadow: none;
+}
+
+.btn.primary {
+    background: var(--primary);
+    color: var(--primary-ink);
+    border-color: #d7ad27;
+}
+
+.btn.primary:hover {
+    background: var(--primary-strong);
+}
+
+.btn.success {
+    background: var(--success);
+    color: var(--success-ink);
+    border-color: #3bbf86;
+}
+
+.btn.danger {
+    background: var(--danger);
+    color: var(--danger-ink);
+    border-color: #e67a92;
+}
+
+.btn.active {
+    outline: 2px solid var(--primary);
+}
+
+.btn-row {
+    display: flex;
+    gap: .6rem;
+    flex-wrap: wrap;
+}
+
+.btn.file {
+    position: relative;
+    overflow: hidden;
+}
+
+.input,
+input[type="search"],
+input[type="number"],
+select {
+    padding: .55rem .65rem;
+    border: 1px solid var(--border);
+    border-radius: .5rem;
+    min-width: 220px;
+    background: #121826;
+    color: var(--text);
+}
+
+.input::placeholder,
+input::placeholder {
+    color: #8da0ba;
+}
+
+.field {
+    margin-bottom: .85rem;
+    display: grid;
+    gap: .35rem;
+}
+
+.field.check {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.field-row {
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.hint,
+.note {
+    color: var(--muted);
+    font-size: .9rem;
+}
+
+/* =========================
+   UTILITY: VISIBILITY
+   ========================= */
+.hidden,
+.solution.hidden,
+.esito.hidden {
+    display: none !important;
+    /* fondamentale per nascondere Soluzione/Esito finché non clicchi */
+}
+
+/* =========================
+   QUIZ – cornice e immagine
+   ========================= */
+.quiz-stage {
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.progress {
+    color: var(--muted);
+    margin-bottom: .5rem;
+}
+
+body[data-page="quiz"] .card.quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 980px;
+    margin: 0 auto;
+    background: #141a26;
+}
+
+body[data-page="quiz"] .quiz-frame {
+    width: var(--quiz-w);
+    height: var(--quiz-h);
+    max-width: 100%;
+    margin: 0 auto .5rem auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #0d131d;
+    border-radius: .6rem;
+    overflow: hidden;
+    /* no scrollbar; immagine fa contain */
+    border: 1px solid var(--border);
+}
+
+/* L’immagine riempie il riquadro al massimo, restando intera (no crop) */
+body[data-page="quiz"] .quiz-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+body[data-page="quiz"] .card.quiz .info {
+    width: 100%;
+    max-width: 860px;
+    margin-top: .5rem;
+    color: var(--text);
+}
+
+/* Mobile: adatta cornice */
+@media (max-width: 640px) {
+    :root {
+        --quiz-w: 100%;
+        --quiz-h: 320px;
+    }
+}
+
+/* =========================
+   FULL-SCREEN VIEWER
+   ========================= */
+.viewer {
+    position: fixed;
+    inset: 0;
+    background: rgba(10, 12, 16, .92);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    backdrop-filter: blur(2px);
+}
+
+.viewer.open {
+    display: flex;
+}
+
+.viewer img {
+    max-width: 95vw;
+    max-height: 95vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.viewer .hint {
+    position: fixed;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--muted-strong);
+    opacity: .9;
+    font-size: .9rem;
+}
