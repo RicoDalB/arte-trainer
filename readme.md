@@ -43,12 +43,12 @@ arte-trainer/
 ```json
 [
   {
-    "id": "bacio-gustav-klimt",       // univoco & stabile (slug consigliato)
+    "id": "bacio-gustav-klimt",      
     "titolo": "Il bacio",
     "artista": "Gustav Klimt",
     "anno": "1907-1908",
     "tecnica": "Olio su tela, foglia d’oro",
-    "immagine": "images/bacio.webp"   // percorso relativo nella repo
+    "immagine": "images/bacio.webp"   
   }
 ]
 ```
@@ -131,3 +131,4 @@ Se il CSS sembra “in cache”: ricarica forte (**Ctrl/Cmd + F5**) o usa `style
 ## 📜 Licenze & crediti immagini
 
 Usa immagini in pubblico dominio o con licenze compatibili; se necessario, **cita la fonte** in pagina o qui nel README.
+
