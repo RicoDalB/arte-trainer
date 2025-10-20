@@ -78,7 +78,7 @@
     "artista": "Sandro Botticelli",
     "anno": "1484–1486",
     "tecnica": "Tempera su tela",
-    "immagine": "images/botticelli_venere.jpg"
+    "immagine": "images/botticelli_venere.png"
   }
 ]
 Note:
@@ -152,7 +152,7 @@ Export overlay quando vuoi consolidare nella repo.
 Workflow immagini
 Ridimensiona lato lungo ~1600px.
 
-Comprimi: preferisci .webp, altrimenti .jpg ben compresso (~<300 KB).
+Comprimi: preferisci .webp, altrimenti .png ben compresso (~<300 KB).
 
 Nomi file: minuscole, senza spazi (botticelli_venere.webp).
 
@@ -170,7 +170,7 @@ arte-trainer/
 ├─ data/
 │  └─ opere.json
 ├─ images/
-│  ├─ botticelli_venere.jpg
+│  ├─ botticelli_venere.png
 │  └─ ...
 ├─ assets/                # (opz.) icone, manifest.json per PWA
 ├─ README.md

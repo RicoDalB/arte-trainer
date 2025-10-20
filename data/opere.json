@@ -5,7 +5,7 @@
     "artista": "Claude Monet",
     "anno": "1877",
     "tecnica": "Tecnica impressionista",
-    "immagine": "images/la_gare_de_saint-lazare.jpg"
+    "immagine": "images/la_gare_de_saint-lazare.png"
   },
   {
     "id": "ninfee-in-fiore",
@@ -13,7 +13,7 @@
     "artista": "Claude Monet",
     "anno": "1914-17",
     "tecnica": "Tecnica impressionista",
-    "immagine": "images/ninfee_in_fiore.jpg"
+    "immagine": "images/ninfee_in_fiore.png"
   },
   {
     "id": "la-classe-di-danza",
@@ -21,7 +21,7 @@
     "artista": "Edgar Degas",
     "anno": "1873-75",
     "tecnica": "Tecnica impressionista",
-    "immagine": "images/la_classe_di_danza.jpg"
+    "immagine": "images/la_classe_di_danza.png"
   },
   {
     "id": "la-star",
@@ -29,7 +29,7 @@
     "artista": "Edgar Degas",
     "anno": "1876-77",
     "tecnica": "Tecnica impressionista",
-    "immagine": "images/la_star.jpg"
+    "immagine": "images/la_star.png"
   },
   {
     "id": "due-donne",
@@ -37,7 +37,7 @@
     "artista": "Edgar Degas",
     "anno": "1878-80",
     "tecnica": "Pastello su acquerello e carboncino su carta color cuoio, montato su tavola.",
-    "immagine": "images/due_donne.jpg"
+    "immagine": "images/due_donne.png"
   },
   {
     "id": "donna-davanti-a-un-café,-di-sera",
@@ -45,7 +45,7 @@
     "artista": "Edgar Degas",
     "anno": "1877",
     "tecnica": "Pastelli su monotipo",
-    "immagine": "images/donna_davanti_a_un_café.jpg"
+    "immagine": "images/donna_davanti_a_un_café.png"
   },
   {
     "id": "due-ballerine-che-entrano-sul-palco",
@@ -53,7 +53,7 @@
     "artista": "Edgar Degas",
     "anno": "1877-78",
     "tecnica": "Pastelli su monotipo",
-    "immagine": "images/due_ballerine_che_entrano_sul_palco.jpg"
+    "immagine": "images/due_ballerine_che_entrano_sul_palco.png"
   },  
   {
     "id": "paesaggio",
@@ -61,7 +61,7 @@
     "artista": "Edgar Degas",
     "anno": "1892",
     "tecnica": "Pastelli su monotipo",
-    "immagine": "images/paesaggio.jpg"
+    "immagine": "images/paesaggio.png"
   },
   {
     "id": "piccola-ballerina-di-14-anni",
@@ -69,7 +69,7 @@
     "artista": "Edgar Degas",
     "anno": "1881",
     "tecnica": "Scultura in cera",
-    "immagine": "images/piccola_ballerina_di_14_anni.jpg"
+    "immagine": "images/piccola_ballerina_di_14_anni.png"
   },
   {
     "id": "effetto-d’uomo-che-legge",
@@ -77,7 +77,7 @@
     "artista": "Medardo Rosso",
     "anno": "1895",
     "tecnica": "Scultura in cera",
-    "immagine": "images/effetto_d’uomo_che_legge.jpg"
+    "immagine": "images/effetto_d’uomo_che_legge.png"
   },
   {
     "id": "il-bookmaker",
@@ -85,7 +85,7 @@
     "artista": "Medardo Rosso",
     "anno": "1894",
     "tecnica": "Scultura in cera",
-    "immagine": "images/il_bookmaker.jpg"
+    "immagine": "images/il_bookmaker.png"
   },
   {
     "id": "ecce-puer",
@@ -93,7 +93,7 @@
     "artista": "Medardo Rosso",
     "anno": "1905",
     "tecnica": "Scultura in cera",
-    "immagine": "images/ecce_puer.jpg"
+    "immagine": "images/ecce_puer.png"
   },
   {
     "id": "impression-d’omnibus",
@@ -101,7 +101,7 @@
     "artista": "Medardo Rosso",
     "anno": "1884-85",
     "tecnica": "Terracotta",
-    "immagine": "images/impression_d’omnibus.jpg"
+    "immagine": "images/impression_d’omnibus.png"
   },
   {
     "id": "madame-x",
@@ -109,7 +109,7 @@
     "artista": "Medardo Rosso",
     "anno": "1896",
     "tecnica": "Scultura in cera",
-    "immagine": "images/madame_x.jpg"
+    "immagine": "images/madame_x.png"
   },
   {
     "id": "musa-dormiente",
@@ -117,7 +117,7 @@
     "artista": "Constantin Brancusi",
     "anno": "1910",
     "tecnica": "Bronzo",
-    "immagine": "images/musa_dormiente.jpg"
+    "immagine": "images/musa_dormiente.png"
   },
   {
     "id": "il-portoghese",
@@ -125,7 +125,7 @@
     "artista": "Georges Braque",
     "anno": "1911-12",
     "tecnica": "Pittura trompe-l’oeil",
-    "immagine": "images/il_portoghese.jpg"
+    "immagine": "images/il_portoghese.png"
   },
   {
     "id": "il-clarinetto",
@@ -133,7 +133,7 @@
     "artista": "Georges Braque",
     "anno": "1912",
     "tecnica": "Sabbia e olio su tela",
-    "immagine": "images/il_clarinetto.jpg"
+    "immagine": "images/il_clarinetto.png"
   },
   {
     "id": "fruttiera,-quotidiendumidi",
@@ -141,7 +141,7 @@
     "artista": "Georges Braque",
     "anno": "1912",
     "tecnica": "Sabbia e olio su tela",
-    "immagine": "images/fruttiera,_quotidiendumidi.jpg"
+    "immagine": "images/fruttiera,_quotidiendumidi.png"
   },
   {
     "id": "natura-morta-con-sedia-impagliata",
@@ -149,7 +149,7 @@
     "artista": "Pablo Picasso",
     "anno": "1912",
     "tecnica": "Collage",
-    "immagine": "images/natura_morta_con_sedia_impagliata.jpg"
+    "immagine": "images/natura_morta_con_sedia_impagliata.png"
   },
   {
     "id": "fruttiera-e-bicchiere",
@@ -157,7 +157,7 @@
     "artista": "Georges Braque",
     "anno": "1912",
     "tecnica": "Collage",
-    "immagine": "images/fruttiera_e_bicchiere.jpg"
+    "immagine": "images/fruttiera_e_bicchiere.png"
   },
   {
     "id": "bicchiere-e-bottiglia-di-suze",
@@ -165,7 +165,7 @@
     "artista": "Pablo Picasso",
     "anno": "1912",
     "tecnica": "Collage",
-    "immagine": "images/bicchiere_e_bottiglia_di_suze.jpg"
+    "immagine": "images/bicchiere_e_bottiglia_di_suze.png"
   },
   {
     "id": "au-bon-marché",
@@ -173,7 +173,7 @@
     "artista": "Pablo Picasso",
     "anno": "1913",
     "tecnica": "Collage",
-    "immagine": "images/au_bon_marché.jpg"
+    "immagine": "images/au_bon_marché.png"
   },
   {
     "id": "la-bottiglia-di-vieux-marc",
@@ -181,7 +181,7 @@
     "artista": "Pablo Picasso",
     "anno": "1913",
     "tecnica": "Collage",
-    "immagine": "images/la_bottiglia_di_vieux_marc.jpg"
+    "immagine": "images/la_bottiglia_di_vieux_marc.png"
   },
   {
     "id": "bottiglia-di-vieux-marc,-bicchiere,-chitarra-e-giornale",
@@ -189,7 +189,7 @@
     "artista": "Pablo Picasso",
     "anno": "1913",
     "tecnica": "Collage",
-    "immagine": "images/bottiglia_di_vieux_marc_bicchiere.jpg"
+    "immagine": "images/bottiglia_di_vieux_marc_bicchiere.png"
   },
   {
     "id": "violino",
@@ -197,7 +197,7 @@
     "artista": "Pablo Picasso",
     "anno": "1913-14",
     "tecnica": "Collage",
-    "immagine": "images/violino.jpg"
+    "immagine": "images/violino.png"
   },
   {
     "id": "le-quotidien,-violino-e-pipa",
@@ -205,7 +205,7 @@
     "artista": "Georges Braque",
     "anno": "1913",
     "tecnica": "Collage",
-    "immagine": "images/le_quotidien.jpg"
+    "immagine": "images/le_quotidien.png"
   },
   {
     "id": "chitarra-e-bicchiere-di-vino",
@@ -213,7 +213,7 @@
     "artista": "Pablo Picasso",
     "anno": "1912",
     "tecnica": "Collage",
-    "immagine": "images/chitarra_e_bicchiere_di_vino.jpg"
+    "immagine": "images/chitarra_e_bicchiere_di_vino.png"
   },
   {
     "id": "le-lavabo",
@@ -221,7 +221,7 @@
     "artista": "Juan Gris",
     "anno": "1912",
     "tecnica": "Collage e olio su tela",
-    "immagine": "images/le_lavabo.jpg"
+    "immagine": "images/le_lavabo.png"
   },
   {
     "id": "ballerina-blu",
@@ -229,7 +229,7 @@
     "artista": "Gino Severini",
     "anno": "1912",
     "tecnica": "Pittura a olio e lustrini",
-    "immagine": "images/ballerina_blu.jpg"
+    "immagine": "images/ballerina_blu.png"
   },
   {
     "id": "manifestazione-(o-dimostrazione)-interventista",
@@ -237,7 +237,7 @@
     "artista": "Carlo Carrà",
     "anno": "1914",
     "tecnica": "Tempera, penna, polvere di mica, carte su cartoncino",
-    "immagine": "images/manifestazione.jpg"
+    "immagine": "images/manifestazione.png"
   },
   {
     "id": "inseguimento",
@@ -245,7 +245,7 @@
     "artista": "Carlo Carrà",
     "anno": "1914-15",
     "tecnica": "Tempera, carboncino e collage su cartone",
-    "immagine": "images/inseguimento.jpg"
+    "immagine": "images/inseguimento.png"
   },
   {
     "id": "composizione-con-elica-prima",
@@ -253,7 +253,7 @@
     "artista": "Mario Sironi",
     "anno": "1915",
     "tecnica": "; dopo l’analisi dei frammenti di carta 1919 Pittura a olio e collage",
-    "immagine": "images/composizione_con_elica_prima.jpg"
+    "immagine": "images/composizione_con_elica_prima.png"
   },
   {
     "id": "sacra-conversazione",
@@ -261,7 +261,7 @@
     "artista": "Max Ernst",
     "anno": "1921",
     "tecnica": "Fotografia di un collage",
-    "immagine": "images/sacra_conversazione.jpg"
+    "immagine": "images/sacra_conversazione.png"
   },
   {
     "id": "loplop-presenta-i-membri-del-gruppo-surrealista",
@@ -269,7 +269,7 @@
     "artista": "Max Ernst",
     "anno": "1931",
     "tecnica": "Fotocollage (ritagli di stampe alla gelatina d’argento, ritagli di carta, matita e frottage a matita su carta)",
-    "immagine": "images/loplop_presenta_i_membri_del_gruppo_surrealista.jpg"
+    "immagine": "images/loplop_presenta_i_membri_del_gruppo_surrealista.png"
   },
   {
     "id": "une-semaine-de-bonté-ideazione:-estate",
@@ -277,7 +277,7 @@
     "artista": "Max Ernst",
     "anno": "1933",
     "tecnica": "; pubblicazione: tra aprile e dicembre 1934 Romanzo-collage (182 collage)",
-    "immagine": "images/une_semaine_de_bonté_ideazione.jpg"
+    "immagine": "images/une_semaine_de_bonté_ideazione.png"
   },
   {
     "id": "senza-titolo-(collage-con-quadrati-disposti-secondo-le-leggi-del-caso)",
@@ -285,7 +285,7 @@
     "artista": "Hans Arp",
     "anno": "1916-17",
     "tecnica": "Collage",
-    "immagine": "images/senza_titolo.jpg"
+    "immagine": "images/senza_titolo.png"
   },
   {
     "id": "papier-déchiré",
@@ -293,7 +293,7 @@
     "artista": "Jean Arp",
     "anno": "1931",
     "tecnica": "Carte strappate e incollate su carta",
-    "immagine": "images/papier_déchiré.jpg"
+    "immagine": "images/papier_déchiré.png"
   },
   {
     "id": "taglio-col-coltello-da-cucina-dada-attraverso-la-prima-era-germanica-dalla-cultura-del-ventre-pieno-di-birra-della-repubblica-di-weimar",
@@ -301,7 +301,7 @@
     "artista": "Hannah Hoch",
     "anno": "1919",
     "tecnica": "Collage",
-    "immagine": "images/taglio_col_coltello_da_cucina_dada_attraverso_la_prima_era_germanica_dalla_cultura_del_ventre_pieno_di_birra_della_repubblica_di_weimar.jpg"
+    "immagine": "images/taglio_col_coltello_da_cucina_dada_attraverso_la_prima_era_germanica_dalla_cultura_del_ventre_pieno_di_birra_della_repubblica_di_weimar.png"
   },
   {
     "id": "the-beautiful-girl",
@@ -309,7 +309,7 @@
     "artista": "Hannah Hoch",
     "anno": "1920",
     "tecnica": "Collage",
-    "immagine": "images/the_beautiful_girl.jpg"
+    "immagine": "images/the_beautiful_girl.png"
   },
   {
     "id": "fatto-per-una-festa",
@@ -317,7 +317,7 @@
     "artista": "Hannah Hoch",
     "anno": "1936",
     "tecnica": "Collage",
-    "immagine": "images/fatto_per_una_festa.jpg"
+    "immagine": "images/fatto_per_una_festa.png"
   },
   {
     "id": "tatlin-at-home",
@@ -325,7 +325,7 @@
     "artista": "Raoul Hausmann",
     "anno": "1920",
     "tecnica": "Collage",
-    "immagine": "images/tatlin_at_home.jpg"
+    "immagine": "images/tatlin_at_home.png"
   },
   {
     "id": "autoritratto-con-il-commissario-di-polizia-zörgiebel",
@@ -333,7 +333,7 @@
     "artista": "John Heartfield",
     "anno": "1929",
     "tecnica": "Fotomontaggio",
-    "immagine": "images/autoritratto_con_il_commissario_di_polizia_zörgiebel.jpg"
+    "immagine": "images/autoritratto_con_il_commissario_di_polizia_zörgiebel.png"
   },
   {
     "id": "adolph-the-superman-pubblicato-su-‘aiz’-17-luglio",
@@ -341,7 +341,7 @@
     "artista": "John Heartfield",
     "anno": "1932",
     "tecnica": "Fotomontaggio (a sx) e riproduzione a stampa (a dx)",
-    "immagine": "images/adolph_the_superman.jpg"
+    "immagine": "images/adolph_the_superman.png"
   },
   {
     "id": "il-vero-significato-del-saluto-hitleriano-pubblicato-su-‘aiz’,-16-ottobre",
@@ -349,7 +349,7 @@
     "artista": "John Heartfield",
     "anno": "1932",
     "tecnica": "Riproduzione a stampa di fotomontaggio",
-    "immagine": "images/il_vero_significato_del_saluto_hitleriano_pubblicato.jpg"
+    "immagine": "images/il_vero_significato_del_saluto_hitleriano_pubblicato.png"
   },
   {
     "id": "never-again-o-meaningof-geneva-pubblicato-su-‘aiz’,-27-novembre",
@@ -357,7 +357,7 @@
     "artista": "John Heartfield",
     "anno": "1932",
     "tecnica": "Riproduzione a stampa di fotomontaggio",
-    "immagine": "images/never_again_o_meaningof.jpg"
+    "immagine": "images/never_again_o_meaningof.png"
   },
   {
     "id": "danza",
@@ -365,7 +365,7 @@
     "artista": "Henri Matisse",
     "anno": "1938",
     "tecnica": "Papier découpé (o cutouts)",
-    "immagine": "images/danza.jpg"
+    "immagine": "images/danza.png"
   },
   {
     "id": "jazz-ideato-dal",
@@ -373,7 +373,7 @@
     "artista": "Henri Matisse",
     "anno": "ideato 1943, stampato 1947",
     "tecnica": ", stampato nel 1947 Libro illustrato con riproduzioni di 20 collage",
-    "immagine": "images/jazz_ideato_dal.jpg"
+    "immagine": "images/jazz_ideato_dal.png"
   },
   {
     "id": "icarus",
@@ -381,7 +381,7 @@
     "artista": "Henri Matisse",
     "anno": "1947",
     "tecnica": "Papier découpée carte dipinte a gouache (collage originale) Pochoir con colore a gouache (per il libro ‘Jazz’)",
-    "immagine": "images/icarus.jpg"
+    "immagine": "images/icarus.png"
   },
   {
     "id": "nudo-blu-(dalla-serie-dei-nudi-blu)",
@@ -389,7 +389,7 @@
     "artista": "Henri Matisse",
     "anno": "1952",
     "tecnica": "Collage",
-    "immagine": "images/nudo_blu.jpg"
+    "immagine": "images/nudo_blu.png"
   },
   {
     "id": "il-parrocchetto-e-la-sirena",
@@ -397,7 +397,7 @@
     "artista": "Henri Matisse",
     "anno": "1952-53",
     "tecnica": "Collage",
-    "immagine": "images/il_parrocchetto_e_la_sirena.jpg"
+    "immagine": "images/il_parrocchetto_e_la_sirena.png"
   },
   {
     "id": "just-what-is-it-that-makes-today's-homes-so-different",
@@ -405,6 +405,6 @@
     "artista": "Richard Hamilton",
     "anno": "1956",
     "tecnica": "Collage",
-    "immagine": "images/just_what_is_it_that_makes_today.jpg"
+    "immagine": "images/just_what_is_it_that_makes_today.png"
   }
 ]
