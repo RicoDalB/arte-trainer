@@ -1,0 +1,955 @@
+[
+  {
+    "id": "la-gare-de-saint-lazare",
+    "titolo": "La Gare de Saint-Lazare",
+    "artista": "Claude Monet",
+    "anno": "1877",
+    "tecnica": "Tecnica impressionista",
+    "immagine": "images/la_gare_de_saint-lazare.png"
+  },
+  {
+    "id": "ninfee-in-fiore",
+    "titolo": "Ninfee in fiore",
+    "artista": "Claude Monet",
+    "anno": "1914-17",
+    "tecnica": "Tecnica impressionista",
+    "immagine": "images/ninfee_in_fiore.png"
+  },
+  {
+    "id": "la-classe-di-danza",
+    "titolo": "La classe di danza",
+    "artista": "Edgar Degas",
+    "anno": "1873-75",
+    "tecnica": "Tecnica impressionista",
+    "immagine": "images/la_classe_di_danza.png"
+  },
+  {
+    "id": "la-star",
+    "titolo": "La star",
+    "artista": "Edgar Degas",
+    "anno": "1876-77",
+    "tecnica": "Tecnica impressionista",
+    "immagine": "images/la_star.png"
+  },
+  {
+    "id": "due-donne",
+    "titolo": "Due donne",
+    "artista": "Edgar Degas",
+    "anno": "1878-80",
+    "tecnica": "Pastello su acquerello e carboncino su carta color cuoio, montato su tavola.",
+    "immagine": "images/due_donne.png"
+  },
+  {
+    "id": "donna-davanti-a-un-café,-di-sera",
+    "titolo": "Donna davanti a un café, di sera",
+    "artista": "Edgar Degas",
+    "anno": "1877",
+    "tecnica": "Pastelli su monotipo",
+    "immagine": "images/donna_davanti_a_un_café.png"
+  },
+  {
+    "id": "due-ballerine-che-entrano-sul-palco",
+    "titolo": "Due ballerine che entrano sul palco",
+    "artista": "Edgar Degas",
+    "anno": "1877-78",
+    "tecnica": "Pastelli su monotipo",
+    "immagine": "images/due_ballerine_che_entrano_sul_palco.png"
+  },  
+  {
+    "id": "paesaggio",
+    "titolo": "Paesaggio",
+    "artista": "Edgar Degas",
+    "anno": "1892",
+    "tecnica": "Pastelli su monotipo",
+    "immagine": "images/paesaggio.png"
+  },
+  {
+    "id": "piccola-ballerina-di-14-anni",
+    "titolo": "Piccola ballerina di 14 anni",
+    "artista": "Edgar Degas",
+    "anno": "1881",
+    "tecnica": "Scultura in cera",
+    "immagine": "images/piccola_ballerina_di_14_anni.png"
+  },
+  {
+    "id": "effetto-d’uomo-che-legge",
+    "titolo": "Effetto d’uomo che legge",
+    "artista": "Medardo Rosso",
+    "anno": "1895",
+    "tecnica": "Scultura in cera",
+    "immagine": "images/effetto_d’uomo_che_legge.png"
+  },
+  {
+    "id": "il-bookmaker",
+    "titolo": "Il bookmaker",
+    "artista": "Medardo Rosso",
+    "anno": "1894",
+    "tecnica": "Scultura in cera",
+    "immagine": "images/il_bookmaker.png"
+  },
+  {
+    "id": "ecce-puer",
+    "titolo": "Ecce puer",
+    "artista": "Medardo Rosso",
+    "anno": "1905",
+    "tecnica": "Scultura in cera",
+    "immagine": "images/ecce_puer.png"
+  },
+  {
+    "id": "impression-d’omnibus",
+    "titolo": "Impression d’omnibus",
+    "artista": "Medardo Rosso",
+    "anno": "1884-85",
+    "tecnica": "Terracotta",
+    "immagine": "images/impression_d’omnibus.png"
+  },
+  {
+    "id": "madame-x",
+    "titolo": "Madame X",
+    "artista": "Medardo Rosso",
+    "anno": "1896",
+    "tecnica": "Scultura in cera",
+    "immagine": "images/madame_x.png"
+  },
+  {
+    "id": "musa-dormiente",
+    "titolo": "Musa dormiente",
+    "artista": "Constantin Brancusi",
+    "anno": "1910",
+    "tecnica": "Bronzo",
+    "immagine": "images/musa_dormiente.png"
+  },
+  {
+    "id": "il-portoghese",
+    "titolo": "Il portoghese",
+    "artista": "Georges Braque",
+    "anno": "1911-12",
+    "tecnica": "Pittura trompe-l’oeil",
+    "immagine": "images/il_portoghese.png"
+  },
+  {
+    "id": "il-clarinetto",
+    "titolo": "Il clarinetto",
+    "artista": "Georges Braque",
+    "anno": "1912",
+    "tecnica": "Sabbia e olio su tela",
+    "immagine": "images/il_clarinetto.png"
+  },
+  {
+    "id": "fruttiera,-quotidiendumidi",
+    "titolo": "Fruttiera, QuotidienduMidi",
+    "artista": "Georges Braque",
+    "anno": "1912",
+    "tecnica": "Sabbia e olio su tela",
+    "immagine": "images/fruttiera,_quotidiendumidi.png"
+  },
+  {
+    "id": "natura-morta-con-sedia-impagliata",
+    "titolo": "Natura morta con sedia impagliata",
+    "artista": "Pablo Picasso",
+    "anno": "1912",
+    "tecnica": "Collage",
+    "immagine": "images/natura_morta_con_sedia_impagliata.png"
+  },
+  {
+    "id": "fruttiera-e-bicchiere",
+    "titolo": "Fruttiera e bicchiere",
+    "artista": "Georges Braque",
+    "anno": "1912",
+    "tecnica": "Collage",
+    "immagine": "images/fruttiera_e_bicchiere.png"
+  },
+  {
+    "id": "bicchiere-e-bottiglia-di-suze",
+    "titolo": "Bicchiere e bottiglia di Suze",
+    "artista": "Pablo Picasso",
+    "anno": "1912",
+    "tecnica": "Collage",
+    "immagine": "images/bicchiere_e_bottiglia_di_suze.png"
+  },
+  {
+    "id": "au-bon-marché",
+    "titolo": "Au Bon Marché",
+    "artista": "Pablo Picasso",
+    "anno": "1913",
+    "tecnica": "Collage",
+    "immagine": "images/au_bon_marché.png"
+  },
+  {
+    "id": "la-bottiglia-di-vieux-marc",
+    "titolo": "La bottiglia di Vieux Marc",
+    "artista": "Pablo Picasso",
+    "anno": "1913",
+    "tecnica": "Collage",
+    "immagine": "images/la_bottiglia_di_vieux_marc.png"
+  },
+  {
+    "id": "bottiglia-di-vieux-marc,-bicchiere,-chitarra-e-giornale",
+    "titolo": "Bottiglia di Vieux Marc, bicchiere, chitarra e giornale",
+    "artista": "Pablo Picasso",
+    "anno": "1913",
+    "tecnica": "Collage",
+    "immagine": "images/bottiglia_di_vieux_marc_bicchiere.png"
+  },
+  {
+    "id": "violino",
+    "titolo": "Violino",
+    "artista": "Pablo Picasso",
+    "anno": "1913-14",
+    "tecnica": "Collage",
+    "immagine": "images/violino.png"
+  },
+  {
+    "id": "le-quotidien,-violino-e-pipa",
+    "titolo": "Le Quotidien, violino e pipa",
+    "artista": "Georges Braque",
+    "anno": "1913",
+    "tecnica": "Collage",
+    "immagine": "images/le_quotidien.png"
+  },
+  {
+    "id": "chitarra-e-bicchiere-di-vino",
+    "titolo": "Chitarra e bicchiere di vino",
+    "artista": "Pablo Picasso",
+    "anno": "1912",
+    "tecnica": "Collage",
+    "immagine": "images/chitarra_e_bicchiere_di_vino.png"
+  },
+  {
+    "id": "le-lavabo",
+    "titolo": "Le lavabo",
+    "artista": "Juan Gris",
+    "anno": "1912",
+    "tecnica": "Collage e olio su tela",
+    "immagine": "images/le_lavabo.png"
+  },
+  {
+    "id": "ballerina-blu",
+    "titolo": "Ballerina Blu",
+    "artista": "Gino Severini",
+    "anno": "1912",
+    "tecnica": "Pittura a olio e lustrini",
+    "immagine": "images/ballerina_blu.png"
+  },
+  {
+    "id": "manifestazione-(o-dimostrazione)-interventista",
+    "titolo": "Manifestazione (o Dimostrazione) interventista",
+    "artista": "Carlo Carrà",
+    "anno": "1914",
+    "tecnica": "Tempera, penna, polvere di mica, carte su cartoncino",
+    "immagine": "images/manifestazione.png"
+  },
+  {
+    "id": "inseguimento",
+    "titolo": "Inseguimento",
+    "artista": "Carlo Carrà",
+    "anno": "1914-15",
+    "tecnica": "Tempera, carboncino e collage su cartone",
+    "immagine": "images/inseguimento.png"
+  },
+  {
+    "id": "composizione-con-elica-prima",
+    "titolo": "Composizione con elica",
+    "artista": "Mario Sironi",
+    "anno": "1915",
+    "tecnica": "; dopo l’analisi dei frammenti di carta 1919 Pittura a olio e collage",
+    "immagine": "images/composizione_con_elica_prima.png"
+  },
+  {
+    "id": "sacra-conversazione",
+    "titolo": "Sacra conversazione",
+    "artista": "Max Ernst",
+    "anno": "1921",
+    "tecnica": "Fotografia di un collage",
+    "immagine": "images/sacra_conversazione.png"
+  },
+  {
+    "id": "loplop-presenta-i-membri-del-gruppo-surrealista",
+    "titolo": "Loplop presenta i membri del gruppo Surrealista",
+    "artista": "Max Ernst",
+    "anno": "1931",
+    "tecnica": "Fotocollage (ritagli di stampe alla gelatina d’argento, ritagli di carta, matita e frottage a matita su carta)",
+    "immagine": "images/loplop_presenta_i_membri_del_gruppo_surrealista.png"
+  },
+  {
+    "id": "une-semaine-de-bonté-ideazione:-estate",
+    "titolo": "Une semaine de bonté ideazione: estate",
+    "artista": "Max Ernst",
+    "anno": "1933",
+    "tecnica": "; pubblicazione: tra aprile e dicembre 1934 Romanzo-collage (182 collage)",
+    "immagine": "images/une_semaine_de_bonté_ideazione.png"
+  },
+  {
+    "id": "senza-titolo-(collage-con-quadrati-disposti-secondo-le-leggi-del-caso)",
+    "titolo": "Senza titolo (Collage con quadrati disposti secondo le leggi del caso)",
+    "artista": "Hans Arp",
+    "anno": "1916-17",
+    "tecnica": "Collage",
+    "immagine": "images/senza_titolo.png"
+  },
+  {
+    "id": "papier-déchiré",
+    "titolo": "Papier déchiré",
+    "artista": "Jean Arp",
+    "anno": "1931",
+    "tecnica": "Carte strappate e incollate su carta",
+    "immagine": "images/papier_déchiré.png"
+  },
+  {
+    "id": "taglio-col-coltello-da-cucina-dada-attraverso-la-prima-era-germanica-dalla-cultura-del-ventre-pieno-di-birra-della-repubblica-di-weimar",
+    "titolo": "Taglio col coltello da cucina Dada attraverso la prima era germanica dalla cultura del ventre pieno di birra della Repubblica di Weimar",
+    "artista": "Hannah Hoch",
+    "anno": "1919",
+    "tecnica": "Collage",
+    "immagine": "images/taglio_col_coltello_da_cucina_dada_attraverso_la_prima_era_germanica_dalla_cultura_del_ventre_pieno_di_birra_della_repubblica_di_weimar.png"
+  },
+  {
+    "id": "the-beautiful-girl",
+    "titolo": "The beautiful girl",
+    "artista": "Hannah Hoch",
+    "anno": "1920",
+    "tecnica": "Collage",
+    "immagine": "images/the_beautiful_girl.png"
+  },
+  {
+    "id": "fatto-per-una-festa",
+    "titolo": "Fatto per una festa",
+    "artista": "Hannah Hoch",
+    "anno": "1936",
+    "tecnica": "Collage",
+    "immagine": "images/fatto_per_una_festa.png"
+  },
+  {
+    "id": "tatlin-at-home",
+    "titolo": "Tatlin at home",
+    "artista": "Raoul Hausmann",
+    "anno": "1920",
+    "tecnica": "Collage",
+    "immagine": "images/tatlin_at_home.png"
+  },
+  {
+    "id": "autoritratto-con-il-commissario-di-polizia-zörgiebel",
+    "titolo": "Autoritratto con il commissario di polizia Zörgiebel",
+    "artista": "John Heartfield",
+    "anno": "1929",
+    "tecnica": "Fotomontaggio",
+    "immagine": "images/autoritratto_con_il_commissario_di_polizia_zörgiebel.png"
+  },
+  {
+    "id": "adolph-the-superman-pubblicato-su-‘aiz’-17-luglio",
+    "titolo": "Adolph the superman pubblicato su ‘AIZ’ 17 luglio",
+    "artista": "John Heartfield",
+    "anno": "1932",
+    "tecnica": "Fotomontaggio (a sx) e riproduzione a stampa (a dx)",
+    "immagine": "images/adolph_the_superman.png"
+  },
+  {
+    "id": "il-vero-significato-del-saluto-hitleriano-pubblicato-su-‘aiz’,-16-ottobre",
+    "titolo": "Il vero significato del saluto hitleriano pubblicato su ‘AIZ’, 16 ottobre",
+    "artista": "John Heartfield",
+    "anno": "1932",
+    "tecnica": "Riproduzione a stampa di fotomontaggio",
+    "immagine": "images/il_vero_significato_del_saluto_hitleriano_pubblicato.png"
+  },
+  {
+    "id": "never-again-o-meaningof-geneva-pubblicato-su-‘aiz’,-27-novembre",
+    "titolo": "Never again o Meaningof Geneva pubblicato su ‘AIZ’, 27 novembre",
+    "artista": "John Heartfield",
+    "anno": "1932",
+    "tecnica": "Riproduzione a stampa di fotomontaggio",
+    "immagine": "images/never_again_o_meaningof.png"
+  },
+  {
+    "id": "danza",
+    "titolo": "Danza",
+    "artista": "Henri Matisse",
+    "anno": "1938",
+    "tecnica": "Papier découpé (o cutouts)",
+    "immagine": "images/danza.png"
+  },
+  {
+    "id": "jazz-ideato-dal",
+    "titolo": "Jazz",
+    "artista": "Henri Matisse",
+    "anno": "ideato 1943, stampato 1947",
+    "tecnica": ", stampato nel 1947 Libro illustrato con riproduzioni di 20 collage",
+    "immagine": "images/jazz_ideato_dal.png"
+  },
+  {
+    "id": "icarus",
+    "titolo": "Icarus",
+    "artista": "Henri Matisse",
+    "anno": "1947",
+    "tecnica": "Papier découpée carte dipinte a gouache (collage originale) Pochoir con colore a gouache (per il libro ‘Jazz’)",
+    "immagine": "images/icarus.png"
+  },
+  {
+    "id": "nudo-blu-(dalla-serie-dei-nudi-blu)",
+    "titolo": "Nudo blu (dalla serie dei Nudi blu)",
+    "artista": "Henri Matisse",
+    "anno": "1952",
+    "tecnica": "Collage",
+    "immagine": "images/nudo_blu.png"
+  },
+  {
+    "id": "il-parrocchetto-e-la-sirena",
+    "titolo": "Il parrocchetto e la sirena",
+    "artista": "Henri Matisse",
+    "anno": "1952-53",
+    "tecnica": "Collage",
+    "immagine": "images/il_parrocchetto_e_la_sirena.png"
+  },
+  {
+    "id": "just-what-is-it-that-makes-today's-homes-so-different",
+    "titolo": "Just What Is It That Makes Today's Homes So Different",
+    "artista": "Richard Hamilton",
+    "anno": "1956",
+    "tecnica": "Collage",
+    "immagine": "images/just_what_is_it_that_makes_today.png"
+  },
+  {
+    "id": "canyon-dalla-serie-dei-combine",
+    "titolo": "Canyon, dalla serie dei Combine",
+    "artista": "Robert Rauschenberg",
+    "anno": "1959",
+    "tecnica": "Assemblage",
+    "immagine": "images/canyon_dalla_serie_dei_combine.png"
+  },
+  {
+    "id": "chitarra",
+    "titolo": "Chitarra",
+    "artista": "Pablo Picasso",
+    "anno": "ottobre-dicembre 1912",
+    "tecnica": "Assemblage",
+    "immagine": "images/chitarra.png"
+  },
+  {
+    "id": "chitarra-2",
+    "titolo": "Chitarra",
+    "artista": "Pablo Picasso",
+    "anno": "gennaio-febbraio 1914",
+    "tecnica": "Assemblage",
+    "immagine": "images/chitarra2.png"
+  },
+  {
+    "id": "lo-stuzzichino",
+    "titolo": "Lo stuzzichino",
+    "artista": "Pablo Picasso",
+    "anno": "1914",
+    "tecnica": "Assemblage",
+    "immagine": "images/lo_stuzzichino.png"
+  },
+  {
+    "id": "fusione-di-una-testa-e-di-una-finestra",
+    "titolo": "Fusione di una testa e di una finestra",
+    "artista": "Umberto Boccioni",
+    "anno": "1911-12",
+    "tecnica": "Polimaterico",
+    "immagine": "images/fusione_di_una_testa_e_di_una_finestra.png"
+  },
+  {
+    "id": "la-strada-che-entra-nella-casa",
+    "titolo": "La strada che entra nella casa",
+    "artista": "Umberto Boccioni",
+    "anno": "1911",
+    "tecnica": "Olio su tela",
+    "immagine": "images/la_strada_che_entra_nella_casa.png"
+  },
+  {
+    "id": "materia",
+    "titolo": "Materia",
+    "artista": "Umberto Boccioni",
+    "anno": "1912",
+    "tecnica": "Olio su tela",
+    "immagine": "images/materia.png"
+  },
+  {
+    "id": "costruzione-orizzontale",
+    "titolo": "Costruzione orizzontale",
+    "artista": "Umberto Boccioni",
+    "anno": "1912",
+    "tecnica": "Olio su tela",
+    "immagine": "images/costruzione_orizzontale.png"
+  },
+  {
+    "id": "testa-+-casa-+-luce",
+    "titolo": "Testa + casa + luce",
+    "artista": "Umberto Boccioni",
+    "anno": "1912",
+    "tecnica": "Polimaterico",
+    "immagine": "images/testa_casa_luce.png"
+  },
+  {
+    "id": "dinamismo-di-un-cavallo-in-corsa-+-case",
+    "titolo": "Dinamismo di un cavallo in corsa + case",
+    "artista": "Umberto Boccioni",
+    "anno": "1914-15",
+    "tecnica": "Polimaterico",
+    "immagine": "images/dinamismo_di_un_cavallo_in_corsa.png"
+  },
+  {
+    "id": "complesso-plastico-colorato-di-linee-forza",
+    "titolo": "Complesso plastico colorato di linee forza",
+    "artista": "Giacomo Balla",
+    "anno": "1914-15",
+    "tecnica": "Cartone, lana e filo rosso e giallo",
+    "immagine": "images/complesso_plastico_colorato_di_linee_forza.png"
+  },
+  {
+    "id": "quadrato-nero-su-fondo-bianco",
+    "titolo": "Quadrato nero su fondo bianco",
+    "artista": "Kazimir Malevic",
+    "anno": "1913",
+    "tecnica": "Olio su tela",
+    "immagine": "images/quadrato_nero_su_fondo_bianco.png"
+  },
+  {
+    "id": "rilievo",
+    "titolo": "Rilievo",
+    "artista": "Vladimir Tatlin",
+    "anno": "1913",
+    "tecnica": "Assemblage",
+    "immagine": "images/rilievo.png"
+  },
+  {
+    "id": "combinazione-di-materie",
+    "titolo": "Combinazione di materie",
+    "artista": "Vladimir Tatlin",
+    "anno": "1914",
+    "tecnica": "Assemblage",
+    "immagine": "images/combinazione_di_materie.png"
+  },
+  {
+    "id": "controrilievo-angolare",
+    "titolo": "Controrilievo angolare",
+    "artista": "Vladimir Tatlin",
+    "anno": "1914",
+    "tecnica": "Assemblage",
+    "immagine": "images/controrilievo_angolare.png"
+  },
+  {
+    "id": "lesprit-de-notre-temps-tete-mecanique",
+    "titolo": "L'esprit di notre temps (Tête Mécanique)",
+    "artista": "Raoul Hausmann",
+    "anno": "1919",
+    "tecnica": "Assemblage",
+    "immagine": "images/lesprit_di_notre_temps.png"
+  },
+  {
+    "id": "merz-460-two-underdrawers",
+    "titolo": "Merz 460. Two underdrawers",
+    "artista": "Kurt Schwitters",
+    "anno": "1921",
+    "tecnica": "Carte colorate e stampate ritagliate e incollate, tessuto, cartoncino",
+    "immagine": "images/merz_460_two_underdrawers.png"
+  },
+  {
+    "id": "merzbild-32-a-the-cherry-picture",
+    "titolo": "Merzbild 32 A. The Cherry Picture",
+    "artista": "Kurt Schwitters",
+    "anno": "1921",
+    "tecnica": "Carte colorate e stampate ritagliate e incollate, sughero, olio, matita e inchiostro su cartone",
+    "immagine": "images/merzbild_32_a_the_cherry_picture.png"
+  },
+  {
+    "id": "merzbau-colonna",
+    "titolo": "Merzbau (colonna)",
+    "artista": "Kurt Schwitters",
+    "anno": "Primi anni ’20 del 900",
+    "tecnica": "Assemblage",
+    "immagine": "images/merzbau_colonna.png"
+  },
+  {
+    "id": "merzbau-ad-hannover",
+    "titolo": "Merzbau ad Hannover",
+    "artista": "Kurt Schwitters",
+    "anno": "1933",
+    "tecnica": "Ambiente",
+    "immagine": "images/merzbau_ad_hannover.png"
+  },
+  {
+    "id": "ricostruzione-del-merzbau",
+    "titolo": "Ricostruzione del Merzbau",
+    "artista": "Kurt Schwitters",
+    "anno": "1981-83",
+    "tecnica": "Ambiente",
+    "immagine": "images/ricostruzione_del_merzbau.png"
+  },
+  {
+    "id": "merzbau-in-norvegia",
+    "titolo": "Merzbau in Norvegia",
+    "artista": "Kurt Schwitters",
+    "anno": "1932-39, ricomposto nel 2019",
+    "tecnica": "Ambiente",
+    "immagine": "images/merzbau_in_norvegia.png"
+  },
+  {
+    "id": "the-merz-barn-in-inghilterra-diventato-barn-wall",
+    "titolo": "The Merz Barn in Inghilterra (diventato Barn Wall)",
+    "artista": "Kurt Schwitters",
+    "anno": "1947-48",
+    "tecnica": "Ambiente",
+    "immagine": "images/the_merz_barn_in_inghilterra_.png"
+  },
+  {
+    "id": "ruota-di-bicicletta",
+    "titolo": "Ruota di bicicletta",
+    "artista": "Marcel Duchamp",
+    "anno": "1913",
+    "tecnica": "Ready-made",
+    "immagine": "images/ruota_di_bicicletta.png"
+  },
+  {
+    "id": "scolabottiglie",
+    "titolo": "Scolabottiglie",
+    "artista": "Marcel Duchamp",
+    "anno": "1914",
+    "tecnica": "Ready-made",
+    "immagine": "images/scolabottiglie.png"
+  },
+  {
+    "id": "fontana",
+    "titolo": "Fontana (foto di Alfred Stieglitz)",
+    "artista": "Marcel Duchamp",
+    "anno": "1917",
+    "tecnica": "Ready-made",
+    "immagine": "images/fontana_.png"
+  },
+  {
+    "id": "lenigma-di-isidore-ducasse-1920",
+    "titolo": "L’enigma di Isidore Ducasse (1920)",
+    "artista": "Man Ray",
+    "anno": "1920",
+    "tecnica": "Object trouvè",
+    "immagine": "images/lenigma_di_isidore_ducass.png"
+  },
+  {
+    "id": "cadeau",
+    "titolo": "Cadeau",
+    "artista": "Man Ray",
+    "anno": "1921",
+    "tecnica": "Object trouvè",
+    "immagine": "images/cadeau.png"
+  },
+  {
+    "id": "schadograph",
+    "titolo": "Schadograph",
+    "artista": "Christian Schad",
+    "anno": "1918",
+    "tecnica": "Fotografia tagliata e montata su carta",
+    "immagine": "images/schadograph.png"
+  },
+  {
+    "id": "schadographie",
+    "titolo": "Schadographie",
+    "artista": "Christian Schad",
+    "anno": "",
+    "tecnica": "Fotografia",
+    "immagine": "images/schadographie.png"
+  },
+  {
+    "id": "schadographie-96",
+    "titolo": "Schadographie 96",
+    "artista": "Christian Schad",
+    "anno": "1975 / 1918",
+    "tecnica": "Fotografia montata su cartoncino",
+    "immagine": "images/schadographie_96.png"
+  },
+  {
+    "id": "disegno-fotogenico",
+    "titolo": "Disegno fotogenico",
+    "artista": "William Fox Talbot",
+    "anno": "1839",
+    "tecnica": "Fotogenia",
+    "immagine": "images/disegno_fotogenico.png"
+  },
+  {
+    "id": "senza-titolo-rayograph-1922-1",
+    "titolo": "Senza titolo (Rayograph)",
+    "artista": "Man Ray",
+    "anno": "1922",
+    "tecnica": "Fotografia",
+    "immagine": "images/senza_titolo_rayograph.png"
+  },
+  {
+    "id": "senza-titolo-rayograph-1922-2",
+    "titolo": "Senza titolo (Rayograph)",
+    "artista": "Man Ray",
+    "anno": "1922",
+    "tecnica": "Fotografia",
+    "immagine": "images/senza_titolo_rayograph2.png"
+  },
+  {
+    "id": "senza-titolo-rayograph-1922-3",
+    "titolo": "Senza titolo (Rayograph)",
+    "artista": "Man Ray",
+    "anno": "1922",
+    "tecnica": "Fotografia",
+    "immagine": "images/senza_titolo_rayograph3.png"
+  },
+  {
+    "id": "senza-titolo-rayograph-1923",
+    "titolo": "Senza titolo (Rayograph)",
+    "artista": "Man Ray",
+    "anno": "1923",
+    "tecnica": "Fotografia",
+    "immagine": "images/senza_titolo_rayograph4.png"
+  },
+  {
+    "id": "lee-miller",
+    "titolo": "Lee Miller",
+    "artista": "Man Ray",
+    "anno": "1929",
+    "tecnica": "Fotografia (solarizzazione)",
+    "immagine": "images/lee_miller.png"
+  },
+  {
+    "id": "sleeping-woman",
+    "titolo": "Sleeping Woman",
+    "artista": "Man Ray",
+    "anno": "1929",
+    "tecnica": "Fotografia (solarizzazione)",
+    "immagine": "images/sleeping_woman.png"
+  },
+  {
+    "id": "fotogramm-1926",
+    "titolo": "Fotogramm",
+    "artista": "László Moholy-Nagy",
+    "anno": "1926",
+    "tecnica": "Fotografia",
+    "immagine": "images/fotogramm.png"
+  },
+  {
+    "id": "fotogramm-426",
+    "titolo": "Fotogramm 426",
+    "artista": "László Moholy-Nagy",
+    "anno": "1931",
+    "tecnica": "Fotografia",
+    "immagine": "images/fotogramm_426.png"
+  },
+  {
+    "id": "historie-naturelle",
+    "titolo": "Historie Naturelle",
+    "artista": "Max Ernst",
+    "anno": "1925-26",
+    "tecnica": "Frottage (serie di 34 tavole riprodotte a stampa)",
+    "immagine": "images/historie_naturelle.png"
+  },
+  {
+    "id": "laffascinante-cipresso-tav-17",
+    "titolo": "L’affascinante cipresso (tav. 17)",
+    "artista": "Max Ernst",
+    "anno": "1926",
+    "tecnica": "Frottage",
+    "immagine": "images/l’affascinante_cipresso_tav_17.png"
+  },
+  {
+    "id": "le-abitudini-delle-foglie-tav-18",
+    "titolo": "Le abitudini delle foglie (tav. 18)",
+    "artista": "Max Ernst",
+    "anno": "1926",
+    "tecnica": "Frottage",
+    "immagine": "images/le_abitudini_delle_foglie_tav_18.png"
+  },
+  {
+    "id": "la-ruota-di-luce-tav-29",
+    "titolo": "La ruota di luce (tav. 29)",
+    "artista": "Max Ernst",
+    "anno": "1926",
+    "tecnica": "Frottage",
+    "immagine": "images/la_ruota_di_luce_tav_29.png"
+  },
+  {
+    "id": "il-fuggiasco-tav-30",
+    "titolo": "Il fuggiasco (tav. 30)",
+    "artista": "Max Ernst",
+    "anno": "1926",
+    "tecnica": "Frottage",
+    "immagine": "images/il_fuggiasco_tav_30.png"
+  },
+  {
+    "id": "la-foresta",
+    "titolo": "La foresta",
+    "artista": "Max Ernst",
+    "anno": "1927-28",
+    "tecnica": "Olio su tela, grattage",
+    "immagine": "images/la_foresta.png"
+  },
+  {
+    "id": "coppia-zoomorfica",
+    "titolo": "Coppia zoomorfica",
+    "artista": "Max Ernst",
+    "anno": "1933",
+    "tecnica": "Olio su tela (fili immersi nel colore)",
+    "immagine": "images/coppia_zoomorfica.png"
+  },
+  {
+    "id": "la-vestizione-della-sposa",
+    "titolo": "La vestizione della sposa",
+    "artista": "Max Ernst",
+    "anno": "1940",
+    "tecnica": "Olio su tela, decalcomania",
+    "immagine": "images/la_vestizione_della_sposa.png"
+  },
+  {
+    "id": "senza-titolo-dominguez-1936-1",
+    "titolo": "Senza titolo",
+    "artista": "Oscar Dominguez",
+    "anno": "1936",
+    "tecnica": "Decalcomania (gouache trasferita su carta)",
+    "immagine": "images/senza_titolo11.png"
+  },
+  {
+    "id": "senza-titolo-dominguez-1936-37",
+    "titolo": "Senza titolo",
+    "artista": "Oscar Dominguez",
+    "anno": "1936-37",
+    "tecnica": "Decalcomania (gouache trasferita su carta)",
+    "immagine": "images/senza_titolo12.png"
+  },
+  {
+    "id": "senza-titolo-tanguy-1936",
+    "titolo": "Senza titolo",
+    "artista": "Yves Tanguy",
+    "anno": "1936",
+    "tecnica": "Decalcomania (inchiostro trasferito su carta)",
+    "immagine": "images/senza_titolo13.png"
+  },
+  {
+    "id": "leuropa-dopo-la-pioggia-ii",
+    "titolo": "L’Europa dopo la pioggia II",
+    "artista": "Max Ernst",
+    "anno": "1940-42",
+    "tecnica": "Olio su tela, decalcomania",
+    "immagine": "images/leuropa_dopo_la_pioggia_ii.png"
+  },
+  {
+    "id": "locchio-del-silenzio",
+    "titolo": "L’occhio del silenzio",
+    "artista": "Max Ernst",
+    "anno": "1943-44",
+    "tecnica": "Olio su tela, decalcomania",
+    "immagine": "images/locchio_del_silenzio.png"
+  },
+  {
+    "id": "la-battaglia-dei-pesci",
+    "titolo": "La battaglia dei pesci",
+    "artista": "Andrè Masson",
+    "anno": "1926",
+    "tecnica": "Polimaterismo",
+    "immagine": "images/la_battaglia_dei_pesci.png"
+  },
+  {
+    "id": "composizione-di-farfalla",
+    "titolo": "Composizione di farfalla",
+    "artista": "Pablo Picasso",
+    "anno": "1932",
+    "tecnica": "Polimaterismo",
+    "immagine": "images/composizione_di_farfalla.png"
+  },
+  {
+    "id": "beguinage",
+    "titolo": "Beguinage",
+    "artista": "Enrico Prampolini",
+    "anno": "1914",
+    "tecnica": "Collage",
+    "immagine": "images/beguinage.png"
+  },
+  {
+    "id": "intervista-con-la-materia",
+    "titolo": "Intervista con la materia",
+    "artista": "Enrico Prampolini",
+    "anno": "1930",
+    "tecnica": "Polimaterismo",
+    "immagine": "images/intervista_con_la_materia.png"
+  },
+  {
+    "id": "studio-per-donna-che-si-pettina",
+    "titolo": "Studio per Donna che si pettina",
+    "artista": "Julio Gonzales",
+    "anno": "1931",
+    "tecnica": "Disegno",
+    "immagine": "images/studio_per_donna_che_si_pettina.png"
+  },
+  {
+    "id": "donna-che-si-pettina-1",
+    "titolo": "Donna che si pettina 1",
+    "artista": "Julio Gonzales",
+    "anno": "1933",
+    "tecnica": "Saldatura (ferro forgiato e saldato)",
+    "immagine": "images/donna_che_si_pettina_1.png"
+  },
+  {
+    "id": "donna-che-si-pettina-2",
+    "titolo": "Donna che si pettina 2",
+    "artista": "Julio Gonzales",
+    "anno": "1934",
+    "tecnica": "Saldatura (ferro forgiato e saldato)",
+    "immagine": "images/donna_che_si_pettina_2.png"
+  },
+  {
+    "id": "donna-in-giardino-1929-30",
+    "titolo": "Donna in giardino",
+    "artista": "Pablo Picasso con Julio Gonzales",
+    "anno": "1929-30",
+    "tecnica": "Saldatura (bronzo forgiato, saldato e dipinto)",
+    "immagine": "images/donna_in_giardino.png"
+  },
+  {
+    "id": "donna-in-giardino-1930-32",
+    "titolo": "Donna in giardino",
+    "artista": "Pablo Picasso con Julio Gonzales",
+    "anno": "1930-32",
+    "tecnica": "Replica in bronzo forgiato e saldato",
+    "immagine": "images/donna_in_giardino2.png"
+  },
+  {
+    "id": "australia",
+    "titolo": "Australia",
+    "artista": "David Smith",
+    "anno": "1951",
+    "tecnica": "Saldatura (acciaio verniciato su base di blocco di cemento)",
+    "immagine": "images/australia.png"
+  },
+  {
+    "id": "serie-voltri",
+    "titolo": "Serie Voltri (foto di Ugo Mulas)",
+    "artista": "David Smith",
+    "anno": "1962",
+    "tecnica": "Saldature",
+    "immagine": "images/serie_voltri_foto_di_ugo_mulas.png"
+  },
+  {
+    "id": "voltri-vii",
+    "titolo": "Voltri VII",
+    "artista": "David Smith",
+    "anno": "1962",
+    "tecnica": "Saldatura in acciaio",
+    "immagine": "images/voltri_vii.png"
+  },
+  {
+    "id": "voltri-iv",
+    "titolo": "Voltri IV",
+    "artista": "David Smith",
+    "anno": "1962",
+    "tecnica": "Saldatura in acciaio",
+    "immagine": "images/voltri_iv.png"
+  },
+  {
+    "id": "grande-ferro-m4",
+    "titolo": "Grande ferro M4",
+    "artista": "Alberto Burri",
+    "anno": "1954",
+    "tecnica": "Saldatura (lamiera di ferro saldata e chiodi su legno)",
+    "immagine": "images/grande_ferro_m4.png"
+  },
+
+  {
+    "id": "L-Italia-tra-le-arti-e-le-scienze",
+    "titolo": "L’Italia tra le arti e le scienze",
+    "artista": "Mario Sironi ",
+    "anno": "1935",
+    "tecnica": "Pittura murale",
+    "immagine": "images/L_Itali_tra_le_arti_e_le_scienze.png"
+  }
+]
