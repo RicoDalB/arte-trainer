@@ -221,7 +221,7 @@
     "artista": "Kurt Schwitters",
     "anno": "1933-48",
     "tecnica": "Assemblage",
-    "immagine": "images/merzbau_ad_hannover.png"
+    "immagine": "images/merzbau_ad_hannover2.png"
   },
   {
     "id": "ruota-di-bicicletta",
@@ -281,7 +281,7 @@
   },
   {
     "id": "schadograph-1975",
-    "titolo": "Schadograph 96",
+    "titolo": "Schadograph",
     "artista": "Christian Schad",
     "anno": "1975 / 1918",
     "tecnica": "Fotografia montata su cartoncino",
@@ -345,7 +345,7 @@
   },
   {
     "id": "fotogramm-1931",
-    "titolo": "Fotogramm 426",
+    "titolo": "Fotogramm",
     "artista": "László Moholy-Nagy",
     "anno": "1931",
     "tecnica": "Fotografia",
@@ -357,7 +357,7 @@
     "artista": "Max Ernst",
     "anno": "1926",
     "tecnica": "Frottage (serie di 34 tavole)",
-    "immagine": "images/historie_naturelle.png"
+    "immagine": "images/historie_naturelle2.png"
   },
   {
     "id": "la-foresta",
@@ -461,7 +461,7 @@
     "artista": "Pablo Picasso con Julio Gonzales",
     "anno": "1929-32",
     "tecnica": "Saldatura (bronzo forgiato, saldato e dipinto)",
-    "immagine": "images/donna_in_giardino.png"
+    "immagine": "images/donna_in_giardino3.png"
   },
   {
     "id": "serie-voltri",
