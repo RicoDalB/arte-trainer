@@ -950,6 +950,342 @@
     "artista": "Mario Sironi ",
     "anno": "1935",
     "tecnica": "Pittura murale",
+    "immagine": "images/L_Itali_tra_le_arti_e_le_scienze2.png"
+  },
+  {
+    "id": "frammenti-di-un-reticolo",
+    "titolo": "Frammenti di un reticolo",
+    "artista": "Josef Albers",
+    "anno": "1921",
+    "tecnica": "Vetro, filo e metallo su telaio in lamiera",
+    "immagine": "images/Frammenti_di_un_reticolo.png"
+  },
+  {
+    "id": "immagine-reticolata",
+    "titolo": "Immagine reticolata",
+    "artista": "Josef Albers",
+    "anno": "1921",
+    "tecnica": "Vetro, metallo, filo di rame",
+    "immagine": "images/Immagine_reticolata.png"
+  },
+  {
+    "id": "la-sala-delle-maschere-/-i-tre-musicanti",
+    "titolo": "La sala delle maschere / i Tre musicanti",
+    "artista": "Gino Severini",
+    "anno": "1921-22",
+    "tecnica": "Affresco",
+    "immagine": "images/La_sala_delle_maschere.png"
+  },
+  {
+    "id": "venezia-dominatrice,-tra-la-giustizia-e-la-pace,-accoglie-il-parere-del-collegio-dei-dottori-giuristi-padovani",
+    "titolo": "Venezia dominatrice, tra la Giustizia e la Pace, accoglie il parere del Collegio dei dottori giuristi padovani",
+    "artista": "Gino Severini",
+    "anno": "1941",
+    "tecnica": "Affresco",
+    "immagine": "images/Venezia_dominatric.png"
+  },
+  {
+    "id": "l’italia-corporativa",
+    "titolo": "L’Italia corporativa",
+    "artista": "Mario Sironi",
+    "anno": "1935-37",
+    "tecnica": "Mosaico",
+    "immagine": "images/LItalia_corporativa.png"
+  },
+  {
+    "id": "la-giustizia-fra-la-legge-e-la-forza",
+    "titolo": "La Giustizia fra la Legge e la Forza",
+    "artista": "Mario Sironi",
+    "anno": "1936",
+    "tecnica": "Mosaico",
+    "immagine": "images/La_Giustizia_fra_la_Legge_e_la_Forza.png"
+  },
+  {
+    "id": "il-lavoro",
+    "titolo": "Il lavoro",
+    "artista": "Mario Sironi",
+    "anno": "1933",
+    "tecnica": "Affresco",
+    "immagine": "images/Il_lavoro.png"
+  },
+  {
+    "id": "mosaici-per-la-torre-del-palazzo-delle-poste-a-la-spezia",
+    "titolo": "Mosaici per la torre del Palazzo delle Poste a La Spezia",
+    "artista": "Fillia e Enrico Prampolini",
+    "anno": "1933",
+    "tecnica": "Mosaico",
+    "immagine": "images/Mosaici_per_la_torre_del_Palazzo_delle_Poste_a_La_Spezia.png"
+  },
+  {
+    "id": "mosaico-per-lo-stadio-del-nuoto",
+    "titolo": "Mosaico per lo Stadio del Nuoto",
+    "artista": "Fillia",
+    "anno": "1935",
+    "tecnica": "Mosaico",
+    "immagine": "images/Mosaico_per_lo_Stadio_del_Nuoto.png"
+  },
+  {
+    "id": "torso",
+    "titolo": "Torso",
+    "artista": "Constantin Brancusi",
+    "anno": "1917-22",
+    "tecnica": "Scultura (legno)",
+    "immagine": "images/Torso1.png"
+  },
+  {
+    "id": "torso",
+    "titolo": "Torso",
+    "artista": "Constantin Brancusi",
+    "anno": "1923",
+    "tecnica": "Scultura (gesso)",
+    "immagine": "images/Torso2.png"
+  },
+  {
+    "id": "torso",
+    "titolo": "Torso",
+    "artista": "Constantin Brancusi",
+    "anno": "1917",
+    "tecnica": "Scultura (ottone)",
+    "immagine": "images/Torso3.png"
+  },
+  {
+    "id": "torso",
+    "titolo": "Torso",
+    "artista": "Constantin Brancusi",
+    "anno": "1912",
+    "tecnica": "Scultura (alabastro)",
+    "immagine": "images/Torso4.png"
+  },
+  {
+    "id": "torso-di-giovane-ragazza",
+    "titolo": "Torso di giovane ragazza",
+    "artista": "Constantin Brancusi",
+    "anno": "1922",
+    "tecnica": "Scultura (calcite)",
+    "immagine": "images/Torso_di_giovane_ragazza.png"
+  },
+  {
+    "id": "maiastra",
+    "titolo": "Maiastra",
+    "artista": "Constantin Brancusi",
+    "anno": "1912",
+    "tecnica": "Scultura (ottone lucidato)",
+    "immagine": "images/Maiastra.png"
+  },
+  {
+    "id": "uccello-nello-spazio",
+    "titolo": "Uccello nello spazio",
+    "artista": "Constantin Brancusi",
+    "anno": "1932-40",
+    "tecnica": "Scultura (ottone lucidato)",
+    "immagine": "images/Uccello_nello_spazio.png"
+  },
+  {
+    "id": "maiastra",
+    "titolo": "Maiastra",
+    "artista": "Constantin Brancusi",
+    "anno": "1910-12",
+    "tecnica": "Scultura (marmo e calcare)",
+    "immagine": "images/Maiastra2.png"
+  },
+  {
+    "id": "pesce",
+    "titolo": "Pesce",
+    "artista": "Constantin Brancusi",
+    "anno": "1926",
+    "tecnica": "Scultura (bronzo, metallo e legno)",
+    "immagine": "images/Pesce.png"
+  },
+  {
+    "id": "pesce",
+    "titolo": "Pesce",
+    "artista": "Constantin Brancusi",
+    "anno": "1930",
+    "tecnica": "Scultura (marmo e calcare)",
+    "immagine": "images/Pesce2.png"
+  },
+  {
+    "id": "colonna-infinita",
+    "titolo": "Colonna infinita",
+    "artista": "Constantin Brancusi",
+    "anno": "1918",
+    "tecnica": "Scultura (legno di quercia)",
+    "immagine": "images/Colonna_infinita.png"
+  },
+  {
+    "id": "colonna-infinita-a-târgu-jiu",
+    "titolo": "Colonna infinita a Târgu Jiu",
+    "artista": "Constantin Brancusi",
+    "anno": "1937-38",
+    "tecnica": "Scultura site specific (leghe metalliche e acciaio)",
+    "immagine": "images/Colonna_infinita_a_Târgu_Jiu.png"
+  },
+  {
+    "id": "constructed-head-n.-1",
+    "titolo": "Constructed Head n. 1",
+    "artista": "Naum Gabo",
+    "anno": "1915",
+    "tecnica": "Compensato a tre strati",
+    "immagine": "images/Constructed_Head_n_1.png"
+  },
+  {
+    "id": "constructed-head-n.-3",
+    "titolo": "Constructed Head n. 3",
+    "artista": "Naum Gabo",
+    "anno": "1917-20",
+    "tecnica": "Celluloide e metallo",
+    "immagine": "images/Constructed_Head_n_3.png"
+  },
+  {
+    "id": "torso",
+    "titolo": "Torso",
+    "artista": "Anton Pevsner",
+    "anno": "1924-25",
+    "tecnica": "Plastica e rame",
+    "immagine": "images/Torso.png"
+  },
+  {
+    "id": "head",
+    "titolo": "Head",
+    "artista": "Anton Pevsner",
+    "anno": "1923-24",
+    "tecnica": "Celluloide",
+    "immagine": "images/Head.png"
+  },
+  {
+    "id": "torsion",
+    "titolo": "Torsion",
+    "artista": "Naum Gabo",
+    "anno": "1928-36",
+    "tecnica": "Perspex",
+    "immagine": "images/Torsion.png"
+  },
+  {
+    "id": "translucent-variatio-non-spheric-theme",
+    "titolo": "Translucent Variatio non Spheric Theme",
+    "artista": "Naum Gabo",
+    "anno": "1937",
+    "tecnica": "Perspex",
+    "immagine": "images/Translucent_Variatio_non_Spheric_Theme.png"
+  },
+  {
+    "id": "grande-rosso",
+    "titolo": "Grande rosso",
+    "artista": "Alberto Burri",
+    "anno": "1964",
+    "tecnica": "Plastica combusta",
+    "immagine": "images/Grande_rosso.png"
+  },
+  {
+    "id": "natura-modulare",
+    "titolo": "Natura modulare",
+    "artista": "Gino Marotta",
+    "anno": "1966",
+    "tecnica": "Plexiglass",
+    "immagine": "images/Natura_modulare.png"
+  },
+  {
+    "id": "bosco-naturale-artificiale",
+    "titolo": "Bosco Naturale-Artificiale",
+    "artista": "Gino Marotta",
+    "anno": "1967",
+    "tecnica": "Opera-ambiente",
+    "immagine": "images/Bosco_NaturaleArtificiale.png"
+  },
+  {
+    "id": "eden-artificiale",
+    "titolo": "Eden Artificiale",
+    "artista": "Gino Marotta",
+    "anno": "1965-73",
+    "tecnica": "Plexiglas",
+    "immagine": "images/Eden_Artificiale.png"
+  },
+  {
+    "id": "perspex",
+    "titolo": "Perspex",
+    "artista": "Sante Monachesi",
+    "anno": "1967",
+    "tecnica": "Polimetilmetacrilato fluorescente rosso",
+    "immagine": "images/Perspex.png"
+  },
+  {
+    "id": "evelpiuma",
+    "titolo": "Evelpiuma",
+    "artista": "Sante Monachesi",
+    "anno": "1961",
+    "tecnica": "Gommapiuma e spago",
+    "immagine": "images/Evelpiuma.png"
+  },
+  {
+    "id": "funburn",
+    "titolo": "Funburn",
+    "artista": "John Chamberlain",
+    "anno": "1967",
+    "tecnica": "Gommapiuma",
+    "immagine": "images/Funburn.png"
+  },
+  {
+    "id": "mare-con-gabbiano",
+    "titolo": "Mare con gabbiano",
+    "artista": "Piero Gilardi",
+    "anno": "1967",
+    "tecnica": "Poliuretano espanso",
+    "immagine": "images/Mare_con_gabbiano.png"
+  },
+  {
+    "id": "greto-di-torrente",
+    "titolo": "Greto di Torrente",
+    "artista": "Piero Gilardi",
+    "anno": "1967",
+    "tecnica": "Poliuretano espanso",
+    "immagine": "images/Greto_di_Torrente.png"
+  },
+  {
+    "id": "zuccaia",
+    "titolo": "Zuccaia",
+    "artista": "Piero Gilardi",
+    "anno": "1966",
+    "tecnica": "Poliuretano espanso",
+    "immagine": "images/Zuccaia.png"
+  },
+  {
+    "id": "uva-bianca",
+    "titolo": "Uva bianca",
+    "artista": "Piero Gilardi",
+    "anno": "1986",
+    "tecnica": "Poliuretano espanso",
+    "immagine": "images/Uva_bianca.png"
+  },
+  {
+    "id": "hammamet",
+    "titolo": "Hammamet",
+    "artista": "Paul Klee",
+    "anno": "1914",
+    "tecnica": "Acquerello",
+    "immagine": "images/Hammamet.png"
+  },
+  {
+    "id": "la-madre",
+    "titolo": "La madre",
+    "artista": "Gabriele Mucchi",
+    "anno": "1933",
+    "tecnica": "Affresco",
+    "immagine": "images/La_madre.png"
+  },
+  {
+    "id": "il-mago",
+    "titolo": "Il Mago",
+    "artista": "Jean Dubuffet",
+    "anno": "1954",
+    "tecnica": "Assemblage",
+    "immagine": "images/il_mago.png"
+  },
+  {
+    "id": "L-Italia-tra-le-arti-e-le-scienze",
+    "titolo": "L’Italia tra le arti e le scienze",
+    "artista": "Mario Sironi con ridipintura di Carlo Siviero",
+    "anno": "1950",
+    "tecnica": "Pittura murale",
     "immagine": "images/L_Itali_tra_le_arti_e_le_scienze.png"
   }
 ]
