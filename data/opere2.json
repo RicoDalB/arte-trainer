@@ -1287,5 +1287,40 @@
     "anno": "1950",
     "tecnica": "Pittura murale",
     "immagine": "images/L_Itali_tra_le_arti_e_le_scienze.png"
+  },
+
+
+
+  {
+    "id": "upwards",
+    "titolo": "Upwards",
+    "artista": "Josef Albers",
+    "anno": "1926",
+    "tecnica": "Vetro placcato, sabbiato, vernice nera",
+    "immagine": "images/upwards.png"
+  },
+  {
+    "id": "tappeto-del-ricordo",
+    "titolo": "Tappeto del ricordo",
+    "artista": "Paul Klee",
+    "anno": "1914-21",
+    "tecnica": "Olio su mussolina",
+    "immagine": "images/tappeto_del_ricordo.png"
+  },
+  {
+    "id": "rifugio",
+    "titolo": "Rifugio",
+    "artista": "Paul Klee",
+    "anno": "1930",
+    "tecnica": "Olio su mussolina",
+    "immagine": "images/rifugio.png"
+  },
+  {
+    "id": "ad-parnassum",
+    "titolo": "Ad Parnassum",
+    "artista": "Paul Klee",
+    "anno": "1932",
+    "tecnica": "Olio su tela",
+    "immagine": "images/ad_parnassum.png"
   }
 ]
