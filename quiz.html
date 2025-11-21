@@ -5,10 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Arte Trainer – Quiz</title>
-    
-    <link rel="stylesheet" href="styles.css">
-    
 
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body data-page="quiz">
@@ -21,27 +19,30 @@
         <div class="toolbar">
             <a class="btn" href="index.html">Home</a>
             <a class="btn" href="gallery.html">Raccolta</a>
-            <button class="btn" id="btn-restart">Ricrea quiz</button>
+            <button class="btn" id="btn-restart" type="button">Ricrea quiz</button>
+            <button class="btn danger" id="btn-exit" type="button">Esci</button>
         </div>
 
         <section id="stage" class="quiz-stage panel">
             <div class="progress"><span id="quiz-idx">0</span> / <span id="quiz-tot">0</span></div>
 
             <article class="card quiz">
-                <!-- Riquadro a dimensione fissa (imposta in styles.css con --quiz-w / --quiz-h) -->
-                <div class="quiz-frame">
-                    <img id="q-img" class="quiz-img" alt="">
+                <div class="quiz-image">
+                    <img id="q-img" alt="">
                 </div>
-
-                <div class="info">
+                <div class="quiz-info">
                     <button id="btn-show" class="btn primary">Mostra soluzione</button>
 
+                    <!-- QUI è cambiato: soluzione in verticale -->
                     <div id="solution" class="solution hidden">
-                        <h3 id="q-title" class="title"></h3>
-                        <p><strong>Artista:</strong> <span id="q-artist"></span></p>
-                        <p><strong>Anno:</strong> <span id="q-year"></span></p>
-                        <p><strong>Tecnica:</strong> <span id="q-tech"></span></p>
+                        <ul class="solution-list">
+                            <li><span id="q-title"></span></li>
+                            <li><span id="q-artist"></span></li>
+                            <li><span id="q-year"></span></li>
+                            <li><span id="q-tech"></span></li>
+                        </ul>
                     </div>
+
 
                     <div id="esito" class="esito hidden">
                         <button id="btn-correct" class="btn success">Ho indovinato</button>
@@ -63,6 +64,27 @@
     <script>
         (async function () {
             const A = window.ArteTrainer;
+            const QUIZ_STATE_KEY = 'arteTrainerQuizState.v1';
+
+            function loadQuizState() {
+                try {
+                    return JSON.parse(localStorage.getItem(QUIZ_STATE_KEY) || 'null');
+                } catch (e) {
+                    return null;
+                }
+            }
+
+            function saveQuizState(state) {
+                try {
+                    localStorage.setItem(QUIZ_STATE_KEY, JSON.stringify(state));
+                } catch (e) {
+                    // ignore
+                }
+            }
+
+            function clearQuizState() {
+                localStorage.removeItem(QUIZ_STATE_KEY);
+            }
 
             // Parametri quiz da URL
             const params = new URLSearchParams(location.search);
@@ -71,34 +93,10 @@
             const limit = +(params.get('limit') || 9999);
             const unseen = params.get('unseen') === '1';
             const q = (params.get('q') || '').trim().toLowerCase();
-
-            // Sottotitolo
-            const subtitle = document.getElementById('quiz-subtitle');
-            subtitle.textContent = mode === 'advanced'
-                ? `Avanzato: sotto ${threshold}%${unseen ? ' + mai allenate' : ''}${q ? ` • filtro: "${q}"` : ''}`
-                : 'Tutte le opere (ordine casuale)';
-
-            // Carica e filtra opere
-            let opere = await A.caricaOpere();
-            if (q) {
-                opere = opere.filter(o => (o.titolo + ' ' + o.artista + ' ' + o.tecnica + ' ' + o.anno)
-                    .toLowerCase().includes(q));
-            }
-            if (mode === 'advanced') {
-                opere = opere.filter(o => {
-                    const { pct } = A.getPerf(o.id);
-                    return pct === null ? unseen : (pct < threshold);
-                });
-            }
-            opere = A.shuffle(opere);
-            if (opere.length === 0) {
-                alert('Nessuna opera corrisponde ai criteri del quiz.');
-                location.href = 'advanced.html';
-                return;
-            }
-            if (isFinite(limit)) opere = opere.slice(0, limit);
+            const resume = params.get('resume') === '1';
 
             // Riferimenti DOM
+            const subtitle = document.getElementById('quiz-subtitle');
             const stage = document.getElementById('stage');
             const img = document.getElementById('q-img');
             const title = document.getElementById('q-title');
@@ -114,10 +112,65 @@
             const btnWrong = document.getElementById('btn-wrong');
             const btnSkip = document.getElementById('btn-skip');
             const btnRestart = document.getElementById('btn-restart');
+            const btnExit = document.getElementById('btn-exit');
+
+            let opere;
+            let idx = 0;
+
+            if (resume) {
+                // Riprendi da stato salvato
+                const saved = loadQuizState();
+                if (!saved || !Array.isArray(saved.opere) || !saved.opere.length) {
+                    alert('Nessun quiz da riprendere.');
+                    location.href = 'advanced.html';
+                    return;
+                }
+                opere = saved.opere;
+                idx = Math.min(Math.max(saved.idx || 0, 0), opere.length - 1);
+
+                if (saved.subtitle) {
+                    subtitle.textContent = saved.subtitle + ' • ripresa';
+                } else {
+                    subtitle.textContent = 'Quiz in corso – ripresa';
+                }
+            } else {
+                // Sottotitolo per nuovo quiz
+                subtitle.textContent = mode === 'advanced'
+                    ? `Avanzato: sotto ${threshold}%${unseen ? ' + mai allenate' : ''}${q ? ` • filtro: "${q}"` : ''}`
+                    : 'Tutte le opere (ordine casuale)';
+
+                // Carica e filtra opere
+                opere = await A.caricaOpere();
+                if (q) {
+                    opere = opere.filter(o => (o.titolo + ' ' + o.artista + ' ' + o.tecnica + ' ' + o.anno)
+                        .toLowerCase().includes(q));
+                }
+                if (mode === 'advanced') {
+                    opere = opere.filter(o => {
+                        const { pct } = A.getPerf(o.id);
+                        return pct === null ? unseen : (pct < threshold);
+                    });
+                }
+                opere = A.shuffle(opere);
+                if (opere.length === 0) {
+                    alert('Nessuna opera corrisponde ai criteri del quiz.');
+                    location.href = 'advanced.html';
+                    return;
+                }
+                if (isFinite(limit)) opere = opere.slice(0, limit);
+            }
 
             // Stato quiz
-            let idx = 0;
             totEl.textContent = String(opere.length);
+
+            function persistState() {
+                saveQuizState({
+                    idx,
+                    opere,
+                    subtitle: subtitle.textContent,
+                    ts: Date.now()
+                });
+            }
 
             function renderCurrent() {
                 const o = opere[idx];
@@ -134,11 +187,15 @@
                 solution.classList.add('hidden');
                 esito.classList.add('hidden');
                 stage.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+                // salva stato corrente
+                persistState();
             }
 
             function next() {
                 idx++;
                 if (idx >= opere.length) {
+                    clearQuizState();
                     alert('Quiz concluso! 🎉');
                     location.href = 'index.html';
                     return;
@@ -154,16 +211,33 @@
             btnCorrect.addEventListener('click', () => { A.registraEsito(opere[idx].id, true); next(); });
             btnWrong.addEventListener('click', () => { A.registraEsito(opere[idx].id, false); next(); });
             btnSkip.addEventListener('click', () => { next(); });
-            btnRestart.addEventListener('click', () => location.reload());
+
+            btnRestart.addEventListener('click', () => {
+                clearQuizState();
+                location.reload();
+            });
+
+            btnExit.addEventListener('click', () => {
+                if (confirm('Vuoi uscire dal quiz in corso?')) {
+                    clearQuizState();
+                    location.href = 'advanced.html';
+                }
+            });
 
             // Viewer full-screen
             (function () {
                 const viewer = document.getElementById('viewer');
                 const vimg = document.getElementById('viewer-img');
                 img.style.cursor = 'zoom-in';
-                img.addEventListener('click', () => { vimg.src = img.src; vimg.alt = img.alt || ''; viewer.classList.add('open'); });
+                img.addEventListener('click', () => {
+                    vimg.src = img.src;
+                    vimg.alt = img.alt || '';
+                    viewer.classList.add('open');
+                });
                 viewer.addEventListener('click', () => viewer.classList.remove('open'));
-                document.addEventListener('keydown', (e) => { if (e.key === 'Escape') viewer.classList.remove('open'); });
+                document.addEventListener('keydown', (e) => {
+                    if (e.key === 'Escape') viewer.classList.remove('open');
+                });
             })();
 
             renderCurrent();

@@ -6,11 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Arte Trainer – Avanzato</title>
-    
-    
-    <link rel="stylesheet" href="styles.css">
-    
 
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body data-page="advanced">
@@ -43,7 +40,8 @@
 
             <div class="btn-row">
                 <a class="btn" href="index.html">Indietro</a>
-                <button class="btn primary" type="submit">Avvia quiz</button>
+                <button class="btn primary" type="submit">Avvia nuovo quiz</button>
+                <button class="btn" id="btn-resume" type="button" hidden>Riprendi quiz</button>
             </div>
         </form>
     </main>
@@ -52,6 +50,19 @@
     <script>
         (function () {
             const form = document.getElementById('form-adv');
+            const QUIZ_STATE_KEY = 'arteTrainerQuizState.v1';
+
+            function hasActiveQuiz() {
+                try {
+                    const s = JSON.parse(localStorage.getItem(QUIZ_STATE_KEY) || 'null');
+                    return s && Array.isArray(s.opere) && s.opere.length &&
+                        typeof s.idx === 'number' && s.idx >= 0 && s.idx < s.opere.length;
+                } catch (e) {
+                    return false;
+                }
+            }
+
+            // Avvia un nuovo quiz avanzato
             form.addEventListener('submit', (e) => {
                 e.preventDefault();
                 const thr = +document.getElementById('threshold').value || 0;
@@ -67,6 +78,15 @@
                 if (q) url.searchParams.set('q', q);
                 location.href = url.toString();
             });
+
+            // Mostra il bottone "Riprendi quiz" se esiste uno stato salvato
+            const btnResume = document.getElementById('btn-resume');
+            if (btnResume && hasActiveQuiz()) {
+                btnResume.hidden = false;
+                btnResume.addEventListener('click', () => {
+                    location.href = 'quiz.html?resume=1';
+                });
+            }
         })();
     </script>
 </body>
