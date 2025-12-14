@@ -846,5 +846,206 @@
     "anno": "1977",
     "tecnica": "Acrilico su tela e chiodi",
     "immagine": "images/superficie_bianca_1977.png"
+  },
+  {
+    "id": "1200-coal-bags",
+    "titolo": "1200 coal bags",
+    "artista": "Marcel Duchamp",
+    "anno": "1938",
+    "tecnica": "Allestimento / Installazione",
+    "immagine": "images/1200_coal_bags.png"
+  },
+  {
+    "id": "antiluna",
+    "titolo": "Antiluna",
+    "artista": "Pinot Gallizio",
+    "anno": "1957 (tagliata nel 1980)",
+    "tecnica": "Olio, resine plastiche, pigmenti, sabbia su tela",
+    "immagine": "images/antiluna.png"
+  },
+  {
+    "id": "get-out-of-my-mind-get-out-of-this-room",
+    "titolo": "Get out of My mind, get out of this room",
+    "artista": "Brus Nauman",
+    "anno": "1968",
+    "tecnica": "Installazione sonora",
+    "immagine": "images/get_out_of_my_mind_get_out_of_this_room.png"
+  },
+  {
+    "id": "his-twine",
+    "titolo": "His Twine",
+    "artista": "Marcel Duchamp",
+    "anno": "1942",
+    "tecnica": "Allestimento",
+    "immagine": "images/his_twine.png"
+  },
+  {
+    "id": "hon-en-katedral",
+    "titolo": "Hon – en katedral",
+    "artista": "Niki de Saint-Phalle",
+    "anno": "1966",
+    "tecnica": "Installazione",
+    "immagine": "images/hon_en_katedral.png"
+  },
+  {
+    "id": "il-giardino-dei-tarocchi",
+    "titolo": "Il Giardino dei Tarocchi",
+    "artista": "Niki de Saint-Phalle",
+    "anno": "1979-1998",
+    "tecnica": "Sculture abitabili",
+    "immagine": "images/il_giardino_dei_tarocchi.png"
+  },
+  {
+    "id": "la-caverna-dell-antimateria2",
+    "titolo": "La caverna dell’antimateria",
+    "artista": "Pinot Gallizio",
+    "anno": "1959",
+    "tecnica": "Ambiente ricostruito ad Alba nel 2005",
+    "immagine": "images/la_caverna_dell_antimateria2.png"
+  },
+  {
+    "id": "la-caverna-dell-antimateria",
+    "titolo": "La caverna dell’antimateria",
+    "artista": "Pinot Gallizio",
+    "anno": "1959",
+    "tecnica": "Ambiente",
+    "immagine": "images/la_caverna_dell_antimateria.png"
+  },
+  {
+    "id": "le-vide",
+    "titolo": "Le Vide",
+    "artista": "Yves Klein",
+    "anno": "1958",
+    "tecnica": "Ambiente",
+    "immagine": "images/le_vide.png"
+  },
+  {
+    "id": "l-imperatrice-nel-giardino-dei-tarocchi",
+    "titolo": "L’Imperatrice (o la Sfinge) nel Giardino dei Tarocchi",
+    "artista": "Niki de Saint-Phalle",
+    "anno": "1979-1998",
+    "tecnica": "Scultura abitabile",
+    "immagine": "images/l_imperatrice_nel_giardino_dei_tarocchi.png"
+  },
+  {
+    "id": "mostra-dylaby2",
+    "titolo": "Mostra Dylaby (Dynamic Labyrinth)",
+    "artista": "Daniel Spoerri",
+    "anno": "1962",
+    "tecnica": "Installazione",
+    "immagine": "images/mostra_dylaby2.png"
+  },
+  {
+    "id": "mostra-dylaby3",
+    "titolo": "Mostra Dylaby (Dynamic Labyrinth)",
+    "artista": "Niki de Saint-Phalle",
+    "anno": "1962",
+    "tecnica": "Installazione",
+    "immagine": "images/mostra_dylaby3.png"
+  },
+  {
+    "id": "mostra-dylaby4",
+    "titolo": "Mostra Dylaby (Dynamic Labyrinth)",
+    "artista": "Jean Tinguely",
+    "anno": "1962",
+    "tecnica": "Installazione",
+    "immagine": "images/mostra_dylaby4.png"
+  },
+  {
+    "id": "mostra-dylaby5",
+    "titolo": "Mostra Dylaby (Dynamic Labyrinth)",
+    "artista": "Jean Tinguely",
+    "anno": "1962",
+    "tecnica": "Installazione",
+    "immagine": "images/mostra_dylaby5.png"
+  },
+  {
+    "id": "mostra-dylaby",
+    "titolo": "Mostra Dylaby (Dynamic Labyrinth)",
+    "artista": "Martial Raysse",
+    "anno": "1962",
+    "tecnica": "Installazione",
+    "immagine": "images/mostra_dylaby.png"
+  },
+  {
+    "id": "nanas",
+    "titolo": "Nanas",
+    "artista": "Niki de Saint-Phalle",
+    "anno": "Dal 1965 (fino 90’)",
+    "tecnica": "Cartapesta e plastica",
+    "immagine": "images/nanas.png"
+  },
+  {
+    "id": "pittura-industriale",
+    "titolo": "Pittura industriale",
+    "artista": "Pinot Gallizio",
+    "anno": "1958",
+    "tecnica": "Stampa a monotip(o), pittura a olio, pittura acrilica e inchiostro tipografico su tela",
+    "immagine": "images/pittura_industriale.png"
+  },
+  {
+    "id": "proun-1c",
+    "titolo": "Proun 1C",
+    "artista": "El Lissitzky",
+    "anno": "1919",
+    "tecnica": "Olio su pannello",
+    "immagine": "images/proun_1c.png"
+  },
+  {
+    "id": "prun-raum",
+    "titolo": "Prun Raum",
+    "artista": "El Lissitzky",
+    "anno": "1923",
+    "tecnica": "Ambiente",
+    "immagine": "images/prun_raum.png"
+  },
+  {
+    "id": "public-space-two-audience",
+    "titolo": "Public space - two audience",
+    "artista": "Dan Graham",
+    "anno": "1976",
+    "tecnica": "Ambiente",
+    "immagine": "images/public_space_two_audience.png"
+  },
+  {
+    "id": "rotolo-di-pittura-industriale",
+    "titolo": "Rotolo di pittura industriale",
+    "artista": "Pinot Gallizio",
+    "anno": "1957",
+    "tecnica": "Stampa a monotip(o), pittura a olio, pittura acrilica e inchiostro tipografico su tela",
+    "immagine": "images/rotolo_di_pittura_industriale.png"
+  },
+  {
+    "id": "scultura-da-viaggio",
+    "titolo": "Scultura da viaggio",
+    "artista": "Marcel Duchamp",
+    "anno": "1918",
+    "tecnica": "Strisce di caucciù",
+    "immagine": "images/scultura_da_viaggio.png"
+  },
+  {
+    "id": "ten-characters",
+    "titolo": "Ten characters",
+    "artista": "Illja Kabakov",
+    "anno": "1981-88",
+    "tecnica": "Installazione",
+    "immagine": "images/ten_characters.png"
+  },
+  {
+    "id": "the-collector-da-ten-characters",
+    "titolo": "The Collector da Ten characters",
+    "artista": "Illja Kabakov",
+    "anno": "1981-88",
+    "tecnica": "Installazione",
+    "immagine": "images/the_collector_da_ten_characters.png"
+  },
+  {
+    "id": "the-man-who-flew-into-the-space-from-his-apartment-da-ten-chatacters",
+    "titolo": "The Man Who Flew Into the Space from His Apartment da Ten characters",
+    "artista": "Illja Kabakov",
+    "anno": "1981-88",
+    "tecnica": "Installazione",
+    "immagine": "images/the_man_who_flew_into_the_space_from_his_apartment_da_ten_chatacters.png"
   }
 ]
+
